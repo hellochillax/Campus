@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="ViewPagerIndicator-Library">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../ViewPagerIndicator-Library" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../ViewPagerIndicator-Library/gen" />
+      <root url="file://$PROJECT_DIR$/../ViewPagerIndicator-Library/src" />
+    </SOURCES>
+  </library>
+</component>
