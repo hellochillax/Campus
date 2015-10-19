@@ -6,4 +6,4 @@
     <item android:state_selected="true" android:drawable="@drawable/chatto_bg_focused" />
     <item android:drawable="@drawable/chatto_bg_normal" />
 </selector>
-<!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/drawable/chatto_bg.xml -->
+<!-- From: file:/Users/MAC/Documents/AndroidCode/Yard/SoftwareYard/res/drawable/chatto_bg.xml -->

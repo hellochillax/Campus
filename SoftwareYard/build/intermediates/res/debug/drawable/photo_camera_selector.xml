@@ -5,4 +5,4 @@
     <item android:drawable="@drawable/photo_camera_pressed" android:state_focused="false" android:state_pressed="true"/>
     <item android:drawable="@drawable/photo_camera_normal" android:state_focused="false"/>
 
-</selector><!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/drawable/photo_camera_selector.xml -->
+</selector><!-- From: file:/Users/MAC/Documents/AndroidCode/Yard/SoftwareYard/res/drawable/photo_camera_selector.xml -->
