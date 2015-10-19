@@ -81,8 +81,8 @@ public final class CourseInfo_
     @Override
     public void onViewChanged(HasViews hasViews) {
         topBar = ((TopBar) hasViews.findViewById(id.topbar));
-        leftView = ((ListView) hasViews.findViewById(id.list_left));
         rightView = ((ListView) hasViews.findViewById(id.list_right));
+        leftView = ((ListView) hasViews.findViewById(id.list_left));
         init();
     }
 

@@ -93,11 +93,11 @@ public final class ActionBar_
 
     @Override
     public void onViewChanged(HasViews hasViews) {
-        more = ((ImageView) hasViews.findViewById(id.topBar_more));
-        spinner = ((TextView) hasViews.findViewById(id.topBar_spinner));
-        arrow = ((ImageView) hasViews.findViewById(id.topBar_arrow));
-        logo = ((ImageView) hasViews.findViewById(id.topBar_logo));
         forTableVG = ((ViewGroup) hasViews.findViewById(id.topBar_table));
+        logo = ((ImageView) hasViews.findViewById(id.topBar_logo));
+        spinner = ((TextView) hasViews.findViewById(id.topBar_spinner));
+        more = ((ImageView) hasViews.findViewById(id.topBar_more));
+        arrow = ((ImageView) hasViews.findViewById(id.topBar_arrow));
         title = ((TextView) hasViews.findViewById(id.topBar_title));
         if (forTableVG!= null) {
             forTableVG.setOnClickListener(new OnClickListener() {
@@ -111,13 +111,13 @@ public final class ActionBar_
             }
             );
         }
-        if (title!= null) {
-            title.setOnClickListener(new OnClickListener() {
+        if (more!= null) {
+            more.setOnClickListener(new OnClickListener() {
 
 
                 @Override
                 public void onClick(View view) {
-                    ActionBar_.this.topBar_title();
+                    ActionBar_.this.topBar_more(view);
                 }
 
             }
@@ -135,13 +135,13 @@ public final class ActionBar_
             }
             );
         }
-        if (more!= null) {
-            more.setOnClickListener(new OnClickListener() {
+        if (title!= null) {
+            title.setOnClickListener(new OnClickListener() {
 
 
                 @Override
                 public void onClick(View view) {
-                    ActionBar_.this.topBar_more(view);
+                    ActionBar_.this.topBar_title();
                 }
 
             }

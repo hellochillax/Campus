@@ -83,11 +83,11 @@ public final class NewsDetail_
 
     @Override
     public void onViewChanged(HasViews hasViews) {
+        fileList = ((ListView) hasViews.findViewById(id.file_list));
+        scrollView = ((ScrollView) hasViews.findViewById(id.scrollView));
         actionBar = ((ActionBar) hasViews.findViewById(id.topBar));
         pgb = ((ProgressBar) hasViews.findViewById(id.pgb));
-        fileList = ((ListView) hasViews.findViewById(id.file_list));
         content = ((TextView) hasViews.findViewById(id.content));
-        scrollView = ((ScrollView) hasViews.findViewById(id.scrollView));
         initView();
     }
 

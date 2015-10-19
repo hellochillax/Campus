@@ -92,22 +92,10 @@ public final class TopBar_
 
     @Override
     public void onViewChanged(HasViews hasViews) {
-        titleTv = ((TextView) hasViews.findViewById(id.title));
         moreIv = ((ImageView) hasViews.findViewById(id.moreIv));
-        moreTv = ((TextView) hasViews.findViewById(id.moreTv));
+        titleTv = ((TextView) hasViews.findViewById(id.title));
         backIv = ((ImageView) hasViews.findViewById(id.back));
-        if (backIv!= null) {
-            backIv.setOnClickListener(new OnClickListener() {
-
-
-                @Override
-                public void onClick(View view) {
-                    TopBar_.this.back(view);
-                }
-
-            }
-            );
-        }
+        moreTv = ((TextView) hasViews.findViewById(id.moreTv));
         if (moreTv!= null) {
             moreTv.setOnClickListener(new OnClickListener() {
 
@@ -127,6 +115,18 @@ public final class TopBar_
                 @Override
                 public void onClick(View view) {
                     TopBar_.this.more(view);
+                }
+
+            }
+            );
+        }
+        if (backIv!= null) {
+            backIv.setOnClickListener(new OnClickListener() {
+
+
+                @Override
+                public void onClick(View view) {
+                    TopBar_.this.back(view);
                 }
 
             }

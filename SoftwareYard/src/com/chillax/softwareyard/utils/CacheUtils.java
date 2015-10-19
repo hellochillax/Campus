@@ -22,6 +22,10 @@ public class CacheUtils {
                 break;
             case FOR_NOTE_CACHE:
                 preferences=context.getSharedPreferences("FOR_NOTE_CACHE",0);
+                break;
+            case FOR_VERSION_CACHE:
+                preferences=context.getSharedPreferences("FOR_VERSION_CACHE",0);
+                break;
         }
     }
 
@@ -54,9 +58,12 @@ public class CacheUtils {
      * key：一个int值，a_b  a的范围：0~20*7-1；b的范围：0-4；
      * value:定位到该时间点的缓存内容。
      *
+     * FOR_VERSION_CACHE:版本更新标志
+     * key：constant "Version"
+     * value:
      */
     public enum CacheType {
-        FOR_VIEWPAGER, FOR_NEWS,FOR_EXAM_RESULT,FOR_EXAM_SCHEDULE,FOR_NOTE_CACHE
+        FOR_VIEWPAGER, FOR_NEWS,FOR_EXAM_RESULT,FOR_EXAM_SCHEDULE,FOR_NOTE_CACHE,FOR_VERSION_CACHE
     }
     public void setCache(String key, String value) {
         preferences.edit().putString(key, value).commit();

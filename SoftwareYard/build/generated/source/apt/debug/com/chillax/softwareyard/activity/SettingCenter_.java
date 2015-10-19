@@ -80,8 +80,8 @@ public final class SettingCenter_
 
     @Override
     public void onViewChanged(HasViews hasViews) {
-        mActionBar = ((ActionBar) hasViews.findViewById(id.topBar));
         mLv = ((ListView) hasViews.findViewById(id.listview));
+        mActionBar = ((ActionBar) hasViews.findViewById(id.topBar));
         inits();
     }
 

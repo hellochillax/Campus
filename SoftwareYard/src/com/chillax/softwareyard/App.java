@@ -1,6 +1,8 @@
 package com.chillax.softwareyard;
 
 import android.app.Application;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 
 import com.chillax.config.Constant;
@@ -9,6 +11,8 @@ import com.chillax.softwareyard.dao.DownDBDao;
 import com.chillax.softwareyard.dao.StoreDBDao;
 import com.chillax.softwareyard.model.Doc;
 import com.chillax.softwareyard.model.News;
+import com.chillax.softwareyard.utils.CacheUtils;
+import com.chillax.softwareyard.utils.StatesUtils;
 import com.lidroid.xutils.util.LogUtils;
 import com.nostra13.universalimageloader.cache.disc.impl.UnlimitedDiscCache;
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
@@ -66,6 +70,7 @@ public class App extends Application {
         initImageLoader();
         initDaos();
         initPath();
+        checkVersion();
         LogUtils.allowD = true;
         LogUtils.allowE = true;
         //初始化Bmob推送设置：
@@ -74,6 +79,18 @@ public class App extends Application {
         BmobInstallation.getCurrentInstallation(this).save();
         // 启动推送服务
         BmobPush.startWork(this, Constant.appId);
+    }
+
+    private void checkVersion() {
+        try {
+            PackageInfo info = getPackageManager().getPackageInfo(getPackageName(), 0);
+            if (info.versionCode > Integer.valueOf(new CacheUtils(this, CacheUtils.CacheType.FOR_VERSION_CACHE).getCache("Version"))) {
+                new StatesUtils(this).setFirstUse(true);
+            }
+        } catch (Exception e) {
+            new StatesUtils(this).setFirstUse(true);
+            e.printStackTrace();
+        }
     }
 
     private void initPath() {

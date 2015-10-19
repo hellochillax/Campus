@@ -80,8 +80,8 @@ public final class DownLoadCenter_
 
     @Override
     public void onViewChanged(HasViews hasViews) {
-        mActionBar = ((TopBar) hasViews.findViewById(id.topBar));
         mLv = ((ListView) hasViews.findViewById(id.list));
+        mActionBar = ((TopBar) hasViews.findViewById(id.topBar));
         inits();
     }
 

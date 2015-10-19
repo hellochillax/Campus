@@ -80,8 +80,8 @@ public final class FirstLeader_
 
     @Override
     public void onViewChanged(HasViews hasViews) {
-        vp = ((ViewPager) hasViews.findViewById(id.vp));
         indicator = ((IconPageIndicator) hasViews.findViewById(id.indicator));
+        vp = ((ViewPager) hasViews.findViewById(id.vp));
         init();
     }
 

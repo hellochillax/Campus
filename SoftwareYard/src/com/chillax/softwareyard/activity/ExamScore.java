@@ -103,11 +103,11 @@ public class ExamScore extends BaseActivity implements TopBar.onTopClickedListen
 
     private void initData() {
         int i = 0;
-        String line = null;
+        String line;
         String[] data;
         while ((line = cacheUtils.getCache(i++ + "")) != null) {
             data = line.split("::");
-            dataList.add(new ExamResult(data[0], data[1], data[2], data[3], data[4]));
+            dataList.add(new ExamResult(data[0], data[1], data[2], data[3], data.length == 5 ? data[4] : ""));
         }
     }
 
@@ -292,7 +292,8 @@ public class ExamScore extends BaseActivity implements TopBar.onTopClickedListen
                 holder = (ViewHolder) convertView.getTag();
             }
             holder.name.setText(result.getName());
-            holder.category.setText(result.getCategory());
+            String score = result.getScore().replaceAll("\\s", "");
+            holder.category.setText(TextUtils.isEmpty(score) ? "无结果" : (Double.valueOf(score) < 60 ? "未通过" : "已通过"));
             if (isExpanded) {
                 holder.arrow.setImageResource(R.drawable.exam_score_list_top_icon);
             } else {

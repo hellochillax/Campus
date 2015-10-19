@@ -81,9 +81,9 @@ public final class WebViewShower_
 
     @Override
     public void onViewChanged(HasViews hasViews) {
+        mWebView = ((WebView) hasViews.findViewById(id.webView));
         mPgb = ((ProgressBar) hasViews.findViewById(id.pgb));
         mActionBar = ((ActionBar) hasViews.findViewById(id.topBar));
-        mWebView = ((WebView) hasViews.findViewById(id.webView));
         inits();
     }
 

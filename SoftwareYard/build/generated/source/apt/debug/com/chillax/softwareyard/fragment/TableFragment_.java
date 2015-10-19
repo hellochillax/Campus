@@ -73,9 +73,9 @@ public final class TableFragment_
 
     @Override
     public void onViewChanged(HasViews hasViews) {
-        mPager = ((ViewPager) hasViews.findViewById(com.chillax.softwareyard.R.id.pager));
-        mIndicator = ((TitlePageIndicator) hasViews.findViewById(com.chillax.softwareyard.R.id.titles));
         mLeftLv = ((ListView) hasViews.findViewById(com.chillax.softwareyard.R.id.leftLv));
+        mIndicator = ((TitlePageIndicator) hasViews.findViewById(com.chillax.softwareyard.R.id.titles));
+        mPager = ((ViewPager) hasViews.findViewById(com.chillax.softwareyard.R.id.pager));
         initViews();
     }
 

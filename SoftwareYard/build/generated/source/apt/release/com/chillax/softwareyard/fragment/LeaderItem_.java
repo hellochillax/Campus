@@ -72,8 +72,8 @@ public final class LeaderItem_
 
     @Override
     public void onViewChanged(HasViews hasViews) {
-        comein = ((ImageView) hasViews.findViewById(com.chillax.softwareyard.R.id.comein));
         bg = ((ImageView) hasViews.findViewById(com.chillax.softwareyard.R.id.bg));
+        comein = ((ImageView) hasViews.findViewById(com.chillax.softwareyard.R.id.comein));
         if (comein!= null) {
             comein.setOnClickListener(new OnClickListener() {
 
