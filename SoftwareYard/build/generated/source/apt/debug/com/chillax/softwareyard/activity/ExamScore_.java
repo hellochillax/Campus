@@ -82,10 +82,10 @@ public final class ExamScore_
 
     @Override
     public void onViewChanged(HasViews hasViews) {
-        mLv = ((ExpandableListView) hasViews.findViewById(id.list));
-        mPtrv = ((PullToRefreshView) hasViews.findViewById(id.pull_to_refresh));
         mTv = ((TextView) hasViews.findViewById(id.tv_refresh));
+        mLv = ((ExpandableListView) hasViews.findViewById(id.list));
         mTopbar = ((TopBar) hasViews.findViewById(id.topBar));
+        mPtrv = ((PullToRefreshView) hasViews.findViewById(id.pull_to_refresh));
         init();
     }
 

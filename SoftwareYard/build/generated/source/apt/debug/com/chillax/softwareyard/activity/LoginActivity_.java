@@ -80,9 +80,9 @@ public final class LoginActivity_
 
     @Override
     public void onViewChanged(HasViews hasViews) {
+        userName = ((TextView) hasViews.findViewById(id.stuId));
         userPwd = ((TextView) hasViews.findViewById(id.stuPwd));
         login = ((TextView) hasViews.findViewById(id.login));
-        userName = ((TextView) hasViews.findViewById(id.stuId));
         if (login!= null) {
             login.setOnClickListener(new OnClickListener() {
 

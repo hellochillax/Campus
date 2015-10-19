@@ -1,12 +1,19 @@
 package com.chillax.softwareyard.utils;
 
+import android.app.Activity;
 import android.app.IntentService;
+import android.app.Notification;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.media.AudioManager;
+import android.net.Uri;
 import android.os.SystemClock;
+import android.preference.PreferenceManager;
 import android.support.v4.app.NotificationCompat;
+import android.text.TextUtils;
 import android.util.Log;
 
 import com.chillax.softwareyard.R;
@@ -24,6 +31,7 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -184,21 +192,28 @@ public class CusIntentService extends IntentService {
                             .substring(8, e1.attr("href").length()).trim();
                     News news = new News(title, time, address);
                     newsList.add(news);
-                    if (cacheUtils == null) {
-                        cacheUtils = new CacheUtils(this, CacheUtils.CacheType.FOR_NEWS);
+                }
+                Collections.sort(newsList, new SortByTime());
+                if (cacheUtils == null) {
+                    cacheUtils = new CacheUtils(this, CacheUtils.CacheType.FOR_NEWS);
+                }
+                String cacheFirstTitle=cacheUtils.getCache(0+"").split("::")[0];
+                for (News item:newsList){
+                    //如果缓存中不包含这条消息，那么则进行新消息提醒。
+                    int i=0;
+                    if(!item.getTitle().equals(cacheFirstTitle)){
+                        //这里就应该去提醒用户有新的学生周知了
+                        sendNotification(i++,item);
+                    }else {
+                        break;
                     }
-                    String cacheFirstTitle=cacheUtils.getCache(0+"").split("::")[0];
-                    for (News item:newsList){
-                        //如果缓存中不包含这条消息，那么则进行新消息提醒。
-                        int i=0;
-                        if(!item.getTitle().equals(cacheFirstTitle)){
-                            //这里就应该去提醒用户有新的学生周知了
-                            sendNotification(i++,item);
-                        }else {
-                            break;
-                        }
+                }
+                //如果提示了更新的消息，那么需要更新缓存，防止重复提醒
+                if(!newsList.get(0).getTitle().equals(cacheFirstTitle)&&newsList.size()==25){
+                    cacheUtils.clear();
+                    for (int i=0;i<25;i++){
+                        cacheUtils.setCache("i",newsList.get(i).toString());
                     }
-                    // LogUtils.d(title + ":" + time + ":" + address);
                 }
             } catch (Exception e) {
 //				Toast.makeText(context, "学生周知数据扒取失败", 0).show();
@@ -224,7 +239,9 @@ public class CusIntentService extends IntentService {
                 .setSmallIcon(smallIcon)
                 .setContentTitle(tickerText).setTicker(tickerText)
                 .setContentText(news.getTitle()).setAutoCancel(true)
-                .setContentIntent(contentIntent);
+                .setContentIntent(contentIntent)
+                .setDefaults(Notification.DEFAULT_ALL);
         notificationManager.notify(curr, mBuilder.build());
     }
+
 }

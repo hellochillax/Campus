@@ -14,8 +14,6 @@ import android.widget.BaseAdapter;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 
-import com.chillax.config.Constant;
-import com.chillax.softwareyard.App;
 import com.chillax.softwareyard.R;
 import com.chillax.softwareyard.activity.MainActivity;
 import com.chillax.softwareyard.adapter.TableDayAdapter;
@@ -35,7 +33,7 @@ import org.androidannotations.annotations.EFragment;
 import org.androidannotations.annotations.ViewById;
 
 @EFragment(R.layout.table_fragment_day)
-public class TableFragment extends BaseFragment{
+public class TableFragment extends BaseFragment implements OnPageChangeListener {
     private TableDayAdapter mAdapter;
     private LeftAdapter leftAdapter;
     public static int LIST_HEIGHT = 0;
@@ -47,9 +45,10 @@ public class TableFragment extends BaseFragment{
     @ViewById(R.id.leftLv)
     ListView mLeftLv;
     /**
-     * 课程表当前周数
+     * 课程表当前周数（0-19）
      */
-    public static int currWeek = 1;
+    private int currWeek = 0;
+
     @AfterViews
     void initViews() {
         statesUtils = new StatesUtils(context);
@@ -65,12 +64,28 @@ public class TableFragment extends BaseFragment{
             mAdapter = new TableDayAdapter(getChildFragmentManager(), context);
             mPager.setAdapter(mAdapter);
             mIndicator.setViewPager(mPager);
-            int currDay = CommonUtils.getCurrDayOffWeek();
-            mIndicator.setCurrentItem(currDay);
+            //计算当前应该显示在第几页:当前周数*当前星期数
+            int currIndex = currWeek * 7 + CommonUtils.getCurrDayOffWeek();
+//            refrectThePager(currIndex);
+            mIndicator.setCurrentItem(currIndex);
             leftAdapter = new LeftAdapter();
             mLeftLv.setAdapter(leftAdapter);
+            mIndicator.setOnPageChangeListener(this);
         });
     }
+
+//    private void refrectThePager(int curr) {
+//        //用反射设置ViewPager遵循当前周数循环
+//        try {
+//            Field field = ViewPager.class.getDeclaredField("mCurItem");
+//            field.setAccessible(true);
+//            field.setInt(mPager, curr);
+//            field.setAccessible(false);
+//            mPager.addOnPageChangeListener(this);
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
+//    }
 
     public static final int LOGIN_SUCESS = 0;
     public static final int DATA_ERROR = 1;
@@ -81,12 +96,10 @@ public class TableFragment extends BaseFragment{
             loadingDialog.dismiss();
             switch (msg.what) {
                 case LOGIN_SUCESS:
-                    currWeek=statesUtils.getCurrWeekOfTerm();
+                    currWeek = statesUtils.getCurrWeekOfTerm();
                     refreshData(currWeek);
                     CommonUtils.showToast(context, "课表更新成功");
-                    Intent intent = new Intent();
-                    intent.setAction("com.chillax.softwareyard.fragment.MainActivity");
-                    context.sendBroadcast(intent);
+                    ((MainActivity) context).getActionBar2().setCurrWeek(currWeek);
                     break;
                 case NET_ERROR:
                     CommonUtils.showToast(context, "网络不可用");
@@ -99,6 +112,33 @@ public class TableFragment extends BaseFragment{
     };
     private String[] leftTimes = new String[]{"08:00", "08:50", "09:50", "10:40", "13:30", "14:20", "15:10", "16:00", "18:00", "18:50"};
     private String[] leftOrders = new String[]{"1", "2", "3", "4", "5", "6", "7", "8", "9", "10"};
+    private int oldPos = 0;
+
+
+    @Override
+    public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
+
+
+    }
+
+    @Override
+    public void onPageSelected(int position) {
+        if (position % 7 == 0 && oldPos + 1 == position) {
+            //周数加一
+            currWeek++;
+            ((MainActivity) context).getActionBar2().setCurrWeek(currWeek);
+        } else if (position % 7 == 6 && oldPos - 1 == position) {
+            //周数减一
+            currWeek--;
+            ((MainActivity) context).getActionBar2().setCurrWeek(currWeek);
+        }
+        oldPos = position;
+    }
+
+    @Override
+    public void onPageScrollStateChanged(int state) {
+
+    }
 
     private class LeftAdapter extends BaseAdapter {
         AbsListView.LayoutParams params = new AbsListView.LayoutParams(AbsListView.LayoutParams.WRAP_CONTENT, PER_ITEM_HEIGHT);
@@ -134,14 +174,14 @@ public class TableFragment extends BaseFragment{
     }
 
     public void refreshData(int i) {
-        if (i > 0) {
+        if (i !=-1) {
             currWeek = i;
-            mAdapter.refresh();
+//            refrectThePager(currWeek * 7);
+            ((MainActivity) context).getActionBar2().setCurrWeek(currWeek);
+            mIndicator.setCurrentItem(currWeek * 7 + CommonUtils.getCurrDayOffWeek());
         } else {
             updateTableData();
         }
-        int currDay = CommonUtils.getCurrDayOffWeek();
-        mIndicator.setCurrentItem(currDay);
     }
 
     private Dialog loadingDialog;
@@ -149,7 +189,6 @@ public class TableFragment extends BaseFragment{
 
     private void updateTableData() {
         if (NetworkChecker.IsNetworkAvailable(context)) {
-
             loadingDialog = CusDialog.create(context, "刷新课表中...");
             loadingDialog.show();
             logout();
@@ -180,6 +219,7 @@ public class TableFragment extends BaseFragment{
 
         }).start();
     }
+
     /**
      * 其父类Fragment.java中没有实现该方法。
      * 这说明Android中只提供了Activity->Fragment的消息传递，没有提供Fragment->ChildFragment的消息传递，我们需要自己写代码实现
@@ -188,7 +228,7 @@ public class TableFragment extends BaseFragment{
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         switch (requestCode) {
             case TableItemFragment.CODE_FOR_RESULT:
-                mAdapter.onActivityResult(requestCode, resultCode, data, mPager.getCurrentItem());
+                mAdapter.refreshNote(oldPos);
         }
     }
 

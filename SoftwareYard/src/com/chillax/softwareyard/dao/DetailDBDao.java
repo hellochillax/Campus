@@ -45,12 +45,12 @@ public class DetailDBDao {
                     "select * from details where _day=? and _name=?",
                     new String[]{(day + 1) + "", name});
             if (c != null && c.getCount() > 0) {
-                String[] time = new String[2];
+                String[] time;
                 c.moveToFirst();
                 while (!c.isAfterLast()) {
                     time = c.getString(6).split("-");
-                    if (Integer.parseInt(time[0]) <= currWeek
-                            && currWeek <= Integer.parseInt(time[1])) {
+                    if (Integer.parseInt(time[0]) <= currWeek+1
+                            && currWeek+1 <= Integer.parseInt(time[1])) {
                         Detail detail = new Detail(c.getString(1),
                                 c.getString(2), c.getString(3), c.getString(4),
                                 c.getString(5), c.getString(6), c.getString(7),

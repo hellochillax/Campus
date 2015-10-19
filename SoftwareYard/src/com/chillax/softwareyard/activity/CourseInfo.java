@@ -19,7 +19,6 @@ import android.widget.Toast;
 import com.chillax.softwareyard.R;
 import com.chillax.softwareyard.customview.TopBar;
 import com.chillax.softwareyard.utils.CacheUtils;
-import com.chillax.softwareyard.utils.NoteUtils;
 
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.EActivity;
@@ -38,7 +37,7 @@ public class CourseInfo extends BaseActivity implements TopBar.onTopClickedListe
     ListView rightView;
     @ViewById(R.id.topbar)
     TopBar topBar;
-    NoteUtils cacheUtils;
+    CacheUtils cacheUtils;
     ArrayAdapter rightAdapter;
     List<String> rightDatas;
     Dialog myDialog;
@@ -50,8 +49,8 @@ public class CourseInfo extends BaseActivity implements TopBar.onTopClickedListe
         rightDatas = getIntent().getStringArrayListExtra("info");
         if (rightDatas != null&&rightDatas.size()>0) {
             courseName=rightDatas.get(0);
-            cacheUtils = new NoteUtils(this);
-            String note = cacheUtils.getCache("note-" + getIntent().getStringExtra("order")+"-"+courseName);
+            cacheUtils = new CacheUtils(this, CacheUtils.CacheType.FOR_NOTE_CACHE);
+            String note = cacheUtils.getCache(getIntent().getStringExtra("note_order"));
             if (!TextUtils.isEmpty(note)) {
                 rightDatas.add(note);
             }
@@ -79,8 +78,6 @@ public class CourseInfo extends BaseActivity implements TopBar.onTopClickedListe
         if (view.getClass() == TextView.class) {
             if (cacheUtils != null) {
                 myDialog.show();
-            } else {
-                Toast.makeText(this, "无课，不可设置备注", Toast.LENGTH_SHORT).show();
             }
         }
     }
@@ -117,7 +114,7 @@ public class CourseInfo extends BaseActivity implements TopBar.onTopClickedListe
         public void onClick(View v) {
             String noteStr = note.getText().toString();
             if (v == ok) {
-                cacheUtils.setCache("note-" + getIntent().getStringExtra("order") + "-" + courseName, noteStr);
+                cacheUtils.setCache(getIntent().getStringExtra("note_order"),noteStr);
                 if(rightDatas.size()==leftDatas.length){
                     rightDatas.remove(rightDatas.size()-1);
                     rightDatas.add(rightDatas.size(),noteStr);

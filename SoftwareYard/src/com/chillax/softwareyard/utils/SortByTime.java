@@ -13,7 +13,7 @@ public class SortByTime implements Comparator {
     public static synchronized SortByTime getInstance(){
         return instance;
     }
-    private SortByTime(){}
+    public SortByTime(){}
     @Override
     public int compare(Object lhs, Object rhs) {
         return TimeUtils.compareTimes(((News)lhs).getTime(),((News)rhs).getTime());

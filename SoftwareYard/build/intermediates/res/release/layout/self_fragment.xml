@@ -28,8 +28,9 @@
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:layout_marginTop="10dp"
+        android:scrollbars="none"
         android:descendantFocusability="blocksDescendants"
         android:focusable="true"></ListView>
 
 
-</LinearLayout><!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/layout/self_fragment.xml -->
+</LinearLayout><!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/layout/self_fragment.xml -->

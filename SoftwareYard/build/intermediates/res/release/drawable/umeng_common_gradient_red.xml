@@ -4,4 +4,4 @@
 	<gradient android:startColor="#ff0000" android:endColor="#550000"
 		android:type="linear" android:angle="90" />
 	<corners android:radius="8dp" />
-</shape><!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/drawable/umeng_common_gradient_red.xml -->
+</shape><!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/drawable/umeng_common_gradient_red.xml -->

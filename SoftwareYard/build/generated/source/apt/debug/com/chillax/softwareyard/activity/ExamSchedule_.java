@@ -84,8 +84,8 @@ public final class ExamSchedule_
     public void onViewChanged(HasViews hasViews) {
         mPtrv = ((PullToRefreshView) hasViews.findViewById(id.pull_to_refresh));
         mTopbar = ((TopBar) hasViews.findViewById(id.topBar));
-        mTv = ((TextView) hasViews.findViewById(id.tv_refresh));
         mLv = ((ExpandableListView) hasViews.findViewById(id.list));
+        mTv = ((TextView) hasViews.findViewById(id.tv_refresh));
         init();
     }
 

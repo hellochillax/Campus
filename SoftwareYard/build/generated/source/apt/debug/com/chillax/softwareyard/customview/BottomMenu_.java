@@ -71,15 +71,15 @@ public final class BottomMenu_
 
     @Override
     public void onViewChanged(HasViews hasViews) {
-        iv_table = ((ImageView) hasViews.findViewById(id.table));
         iv_zhouzhi = ((ImageView) hasViews.findViewById(id.zhouzhi));
-        tv_table = ((TextView) hasViews.findViewById(id.tv_table));
         tv_self = ((TextView) hasViews.findViewById(id.tv_self));
-        tv_zhouzhi = ((TextView) hasViews.findViewById(id.tv_zhouzhi));
         layout2 = ((LinearLayout) hasViews.findViewById(id.layout2));
+        tv_zhouzhi = ((TextView) hasViews.findViewById(id.tv_zhouzhi));
+        tv_table = ((TextView) hasViews.findViewById(id.tv_table));
         layout3 = ((LinearLayout) hasViews.findViewById(id.layout3));
         iv_self = ((ImageView) hasViews.findViewById(id.self));
         layout1 = ((LinearLayout) hasViews.findViewById(id.layout1));
+        iv_table = ((ImageView) hasViews.findViewById(id.table));
         if (layout2 != null) {
             layout2 .setOnClickListener(new OnClickListener() {
 
@@ -92,18 +92,6 @@ public final class BottomMenu_
             }
             );
         }
-        if (layout3 != null) {
-            layout3 .setOnClickListener(new OnClickListener() {
-
-
-                @Override
-                public void onClick(View view) {
-                    BottomMenu_.this.layout3(view);
-                }
-
-            }
-            );
-        }
         if (layout1 != null) {
             layout1 .setOnClickListener(new OnClickListener() {
 
@@ -111,6 +99,18 @@ public final class BottomMenu_
                 @Override
                 public void onClick(View view) {
                     BottomMenu_.this.layout1(view);
+                }
+
+            }
+            );
+        }
+        if (layout3 != null) {
+            layout3 .setOnClickListener(new OnClickListener() {
+
+
+                @Override
+                public void onClick(View view) {
+                    BottomMenu_.this.layout3(view);
                 }
 
             }

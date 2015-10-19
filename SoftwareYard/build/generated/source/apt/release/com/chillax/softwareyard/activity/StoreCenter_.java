@@ -80,8 +80,8 @@ public final class StoreCenter_
 
     @Override
     public void onViewChanged(HasViews hasViews) {
-        mTopbar = ((TopBar) hasViews.findViewById(id.topBar));
         mSlv = ((SwipeListView) hasViews.findViewById(id.slv));
+        mTopbar = ((TopBar) hasViews.findViewById(id.topBar));
         inits();
     }
 

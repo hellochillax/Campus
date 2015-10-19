@@ -34,8 +34,8 @@ public class MyPushMessageReceiver extends BroadcastReceiver {
             //先确定是否是云端自动调用的周数变更推送：
             if(msg.matches("\\{\"alert\":\"\\d*?\"\\}")){
                 //此推送每隔一个小时进行一次，该推送有两个目的：
-                //1.设置当前周数。
-                new StatesUtils(context).setCurrWeekOfTerm(Integer.valueOf(msg.replaceAll("[^\\d]","").trim()));
+                //1.设置当前周数。（这里需要减一，应用中全部是从零开始计算的）
+                new StatesUtils(context).setCurrWeekOfTerm(Integer.valueOf(msg.replaceAll("[^\\d]","").trim())-1);
                 LogUtils.e("收到来自服务器的推送消息，推送目的：更改当前周数："+Integer.valueOf(msg.replaceAll("[^\\d]","").trim()));
                 //2.后台检查学生周知列表的更新，如果有更新，则提示用户更新。
                 Intent i =new Intent(context, CusIntentService.class);

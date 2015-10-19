@@ -19,6 +19,9 @@ public class CacheUtils {
                 break;
             case FOR_EXAM_SCHEDULE:
                 preferences=context.getSharedPreferences("FOR_EXAM_SCHEDULE",0);
+                break;
+            case FOR_NOTE_CACHE:
+                preferences=context.getSharedPreferences("FOR_NOTE_CACHE",0);
         }
     }
 
@@ -45,9 +48,15 @@ public class CacheUtils {
      *
      * FOR_EXAM_SCHEDULE:考试安排数据缓存
      * key:
+     *
+     * FOR_NOTE_CACHE:课程备注设置的缓存：
+     * v1.3之后，课表采用循环显示的方法，简化了备注信息的保存于还原。
+     * key：一个int值，a_b  a的范围：0~20*7-1；b的范围：0-4；
+     * value:定位到该时间点的缓存内容。
+     *
      */
     public enum CacheType {
-        FOR_VIEWPAGER, FOR_NEWS,FOR_EXAM_RESULT,FOR_EXAM_SCHEDULE
+        FOR_VIEWPAGER, FOR_NEWS,FOR_EXAM_RESULT,FOR_EXAM_SCHEDULE,FOR_NOTE_CACHE
     }
     public void setCache(String key, String value) {
         preferences.edit().putString(key, value).commit();

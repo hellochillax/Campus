@@ -22,7 +22,6 @@ import com.chillax.softwareyard.dao.CoursesDBDao;
 import com.chillax.softwareyard.dao.DetailDBDao;
 import com.chillax.softwareyard.utils.CacheUtils;
 import com.chillax.softwareyard.utils.CusDialog;
-import com.chillax.softwareyard.utils.NoteUtils;
 import com.chillax.softwareyard.utils.StatesUtils;
 import com.lidroid.xutils.util.LogUtils;
 
@@ -85,12 +84,9 @@ public class SettingCenter extends BaseActivity implements ActionBar.onTopBarCli
                 Toast.makeText(this, "暂无系统消息", Toast.LENGTH_SHORT).show();
                 break;
             case 1:
-                showToast("此功能正在开发中...");
-//                Intent intent = FeedBack_.intent(this).get();
-//                String id = new FeedbackAgent(this).getDefaultConversation().getId();
-//                intent.putExtra(FeedbackFragment.BUNDLE_KEY_CONVERSATION_ID, id);
-//                startActivity(intent);
-//                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_clam);
+                Intent intent = FeedBack_.intent(this).get();
+                startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_clam);
                 break;
             case 2:
                 startActivity(new Intent(this, AboutAuthor.class));
@@ -141,9 +137,8 @@ public class SettingCenter extends BaseActivity implements ActionBar.onTopBarCli
 //                    conn.disconnect();
                     mDao.clear();
                     mDao2.clear();
-                    new NoteUtils(this).clear();
+                    new CacheUtils(this, CacheUtils.CacheType.FOR_NOTE_CACHE).clear();
                     new CacheUtils(this, CacheUtils.CacheType.FOR_EXAM_RESULT).clear();
-                    new NoteUtils(SettingCenter.this).clear();
                     File file=new File(Path.userImage);
                     if(file.exists()){
                         file.delete();

@@ -84,8 +84,8 @@ public class TableDataLoader extends AsyncTask<String, String, String> {
 	private List<Detail> list = new ArrayList<>();
 
 	private void getDetails(Element details) {
-		Element detailss = details.getElementById("user");
-		Elements first = detailss.getElementsByTag("tr");
+		Elements first = details.getElementById("user").getElementsByTag("tr");
+		Pattern weekPattern=Pattern.compile("\\d+-\\d+");
 		int i = 0;
 		for (Element ele : first) {
 			if (i++ == 0)
@@ -97,20 +97,24 @@ public class TableDataLoader extends AsyncTask<String, String, String> {
 				detail.setName(second
 						.get(2)
 						.text()
-						.replaceAll("[^(a-zA-Z0-9\\u4e00-\\u9fa5)\\(\\)-_]", ""));
+						.replaceAll("\\s",""));
 				detail.setNum(second.get(3).text().trim());
 				detail.setCredit(second.get(4).text());
 				detail.setCategory(second.get(5).text());
 				detail.setTeacher(second.get(7).text());
-				detail.setWeeks(second.get(11).text()
-						.replaceAll("[^0-9-]", ""));
-				detail.setDay(second.get(12).text().replaceAll("[^0-9]", ""));
-				//在Course里已经有了Room,这里没必要再设置一次
+				//坑爹的教务处的排版的原因，这里需要加一个判断：
+				String weeksStr=second.get(11).text();
+				Matcher weekMatcher=weekPattern.matcher(weeksStr);
+				while (weekMatcher.find()){
+					detail.setWeeks(weekMatcher.group());
+					detail.setDay(second.get(12).text().replaceAll("[^0-9]", ""));
+					//在Course里已经有了Room,这里没必要再设置一次
 //				detail.setRoom((second.get(16).text() + second.get(17).text())
 //						.replaceAll("教学楼", "").replaceAll(" ", "")
 //						.replaceAll("AA", "A").replaceAll("BB", "B")
 //						.replaceAll("CC", "C"));
-				list.add(detail);
+					list.add(detail);
+				}
 			} else {
 				Detail pre = list.get(list.size() - 1);
 				Detail details1 = new Detail(pre.getName(), pre.getNum(),

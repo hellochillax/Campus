@@ -1,12 +1,9 @@
 package com.chillax.softwareyard.customview;
 
 import android.content.Context;
-import android.graphics.drawable.BitmapDrawable;
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.animation.Animation;
-import android.view.animation.RotateAnimation;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
@@ -15,10 +12,7 @@ import android.widget.PopupWindow;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.chillax.config.Constant;
-import com.chillax.softwareyard.App;
 import com.chillax.softwareyard.R;
-import com.chillax.softwareyard.fragment.TableFragment;
 import com.chillax.softwareyard.utils.ScreenUtil;
 import com.chillax.softwareyard.utils.StatesUtils;
 import com.nineoldandroids.animation.ObjectAnimator;
@@ -143,7 +137,7 @@ public class ActionBar extends RelativeLayout implements AdapterView.OnItemClick
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
         if (mListener != null) {
             spinner.setText(weeks[position]);
-            mListener.onSpinnerItemClicked(position);
+            mListener.onSpinnerItemClicked(position==0?-1:position-1);
         }
         if(pw.isShowing()){
             pw.dismiss();
@@ -151,7 +145,7 @@ public class ActionBar extends RelativeLayout implements AdapterView.OnItemClick
     }
     private StatesUtils statesUtils;
     public void refreshPopuWeek() {
-        spinner.setText(weeks[statesUtils.getCurrWeekOfTerm()]);
+        spinner.setText(weeks[1+statesUtils.getCurrWeekOfTerm()]);
     }
 
     public interface onTopBarClickedListener {
@@ -162,6 +156,14 @@ public class ActionBar extends RelativeLayout implements AdapterView.OnItemClick
         void onTitleClicked();
 
         void onMoreClicked(View view);
+    }
+
+    public void setCurrWeek(int currWeek) {
+        try {
+            spinner.setText(weeks[currWeek+1]);
+        }catch (Exception e){
+
+        }
     }
 
     public void setTableSelection(int index) {

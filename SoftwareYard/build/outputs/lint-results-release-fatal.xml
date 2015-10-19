@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<issues format="4" by="lint 24.3.4">
+<issues format="4" by="lint 24.4">
 
     <issue
         id="NamespaceTypo"
@@ -12,7 +12,7 @@
         errorLine1="    xmlns:app=&quot;com.yalantis.taurus.PullToRefreshView&quot;"
         errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\layout\exam_score_layout.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\layout\exam_score_layout.xml"
             line="3"
             column="5"/>
     </issue>
@@ -28,7 +28,7 @@
         errorLine1="    xmlns:app=&quot;com.yalantis.phoenix.PullToRefreshView&quot;"
         errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\layout\news_fragment.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\layout\news_fragment.xml"
             line="3"
             column="5"/>
     </issue>
@@ -51,7 +51,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\instapaper_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\instapaper_strings.xml"
             line="4"
             column="13"/>
     </issue>
@@ -74,7 +74,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\oks_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\oks_strings.xml"
             line="3"
             column="13"/>
     </issue>
@@ -97,7 +97,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\oks_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\oks_strings.xml"
             line="4"
             column="13"/>
     </issue>
@@ -120,7 +120,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\oks_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\oks_strings.xml"
             line="5"
             column="13"/>
     </issue>
@@ -143,7 +143,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\oks_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\oks_strings.xml"
             line="6"
             column="13"/>
     </issue>
@@ -166,7 +166,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\oks_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\oks_strings.xml"
             line="7"
             column="10"/>
     </issue>
@@ -189,7 +189,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\oks_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\oks_strings.xml"
             line="8"
             column="10"/>
     </issue>
@@ -212,7 +212,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\oks_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\oks_strings.xml"
             line="9"
             column="10"/>
     </issue>
@@ -235,7 +235,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\oks_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\oks_strings.xml"
             line="10"
             column="10"/>
     </issue>
@@ -258,7 +258,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\oks_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\oks_strings.xml"
             line="11"
             column="10"/>
     </issue>
@@ -281,7 +281,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\oks_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\oks_strings.xml"
             line="12"
             column="10"/>
     </issue>
@@ -304,7 +304,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\oks_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\oks_strings.xml"
             line="13"
             column="10"/>
     </issue>
@@ -327,7 +327,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\oks_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\oks_strings.xml"
             line="14"
             column="10"/>
     </issue>
@@ -350,7 +350,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\oks_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\oks_strings.xml"
             line="15"
             column="10"/>
     </issue>
@@ -373,7 +373,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\oks_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\oks_strings.xml"
             line="16"
             column="10"/>
     </issue>
@@ -396,7 +396,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\oks_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\oks_strings.xml"
             line="17"
             column="10"/>
     </issue>
@@ -419,7 +419,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\oks_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\oks_strings.xml"
             line="18"
             column="10"/>
     </issue>
@@ -442,7 +442,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\pull_refresh_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\pull_refresh_strings.xml"
             line="4"
             column="13"/>
     </issue>
@@ -465,7 +465,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\pull_refresh_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\pull_refresh_strings.xml"
             line="5"
             column="13"/>
     </issue>
@@ -488,7 +488,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\pull_refresh_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\pull_refresh_strings.xml"
             line="6"
             column="13"/>
     </issue>
@@ -511,7 +511,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\pull_refresh_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\pull_refresh_strings.xml"
             line="7"
             column="13"/>
     </issue>
@@ -534,7 +534,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\pull_refresh_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\pull_refresh_strings.xml"
             line="8"
             column="13"/>
     </issue>
@@ -557,7 +557,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\pull_refresh_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\pull_refresh_strings.xml"
             line="9"
             column="13"/>
     </issue>
@@ -580,7 +580,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\pull_refresh_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\pull_refresh_strings.xml"
             line="10"
             column="13"/>
     </issue>
@@ -603,7 +603,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\pull_refresh_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\pull_refresh_strings.xml"
             line="13"
             column="13"/>
     </issue>
@@ -626,7 +626,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\pull_refresh_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\pull_refresh_strings.xml"
             line="15"
             column="13"/>
     </issue>
@@ -649,7 +649,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\pull_refresh_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\pull_refresh_strings.xml"
             line="18"
             column="13"/>
     </issue>
@@ -672,7 +672,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\pull_refresh_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\pull_refresh_strings.xml"
             line="19"
             column="13"/>
     </issue>
@@ -695,7 +695,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\pull_refresh_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\pull_refresh_strings.xml"
             line="20"
             column="13"/>
     </issue>
@@ -718,7 +718,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\pull_refresh_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\pull_refresh_strings.xml"
             line="21"
             column="13"/>
     </issue>
@@ -741,7 +741,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\pull_refresh_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\pull_refresh_strings.xml"
             line="22"
             column="13"/>
     </issue>
@@ -764,7 +764,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\pull_refresh_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\pull_refresh_strings.xml"
             line="23"
             column="13"/>
     </issue>
@@ -787,7 +787,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\pull_refresh_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\pull_refresh_strings.xml"
             line="24"
             column="13"/>
     </issue>
@@ -810,7 +810,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\pull_refresh_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\pull_refresh_strings.xml"
             line="25"
             column="13"/>
     </issue>
@@ -833,7 +833,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\pull_refresh_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\pull_refresh_strings.xml"
             line="26"
             column="13"/>
     </issue>
@@ -856,7 +856,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\pull_refresh_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\pull_refresh_strings.xml"
             line="29"
             column="13"/>
     </issue>
@@ -879,7 +879,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\pull_refresh_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\pull_refresh_strings.xml"
             line="30"
             column="13"/>
     </issue>
@@ -902,7 +902,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\pull_refresh_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\pull_refresh_strings.xml"
             line="31"
             column="13"/>
     </issue>
@@ -925,7 +925,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\pull_refresh_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\pull_refresh_strings.xml"
             line="32"
             column="13"/>
     </issue>
@@ -948,7 +948,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="3"
             column="13"/>
     </issue>
@@ -971,7 +971,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="4"
             column="13"/>
     </issue>
@@ -994,7 +994,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="5"
             column="13"/>
     </issue>
@@ -1017,7 +1017,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="6"
             column="13"/>
     </issue>
@@ -1040,7 +1040,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="7"
             column="13"/>
     </issue>
@@ -1063,7 +1063,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="8"
             column="13"/>
     </issue>
@@ -1086,7 +1086,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="9"
             column="13"/>
     </issue>
@@ -1109,7 +1109,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="10"
             column="13"/>
     </issue>
@@ -1132,7 +1132,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="11"
             column="13"/>
     </issue>
@@ -1155,7 +1155,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="12"
             column="13"/>
     </issue>
@@ -1178,7 +1178,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="13"
             column="13"/>
     </issue>
@@ -1201,7 +1201,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="14"
             column="13"/>
     </issue>
@@ -1224,7 +1224,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="15"
             column="13"/>
     </issue>
@@ -1247,7 +1247,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="16"
             column="13"/>
     </issue>
@@ -1270,7 +1270,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="17"
             column="13"/>
     </issue>
@@ -1293,7 +1293,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="19"
             column="10"/>
     </issue>
@@ -1316,7 +1316,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="20"
             column="10"/>
     </issue>
@@ -1339,7 +1339,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="21"
             column="10"/>
     </issue>
@@ -1362,7 +1362,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="22"
             column="10"/>
     </issue>
@@ -1385,7 +1385,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="23"
             column="10"/>
     </issue>
@@ -1408,7 +1408,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="24"
             column="10"/>
     </issue>
@@ -1431,7 +1431,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="25"
             column="10"/>
     </issue>
@@ -1454,7 +1454,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="26"
             column="10"/>
     </issue>
@@ -1477,7 +1477,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="27"
             column="10"/>
     </issue>
@@ -1500,7 +1500,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="28"
             column="10"/>
     </issue>
@@ -1523,7 +1523,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="29"
             column="10"/>
     </issue>
@@ -1546,7 +1546,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="30"
             column="10"/>
     </issue>
@@ -1569,7 +1569,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="31"
             column="10"/>
     </issue>
@@ -1592,7 +1592,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="32"
             column="10"/>
     </issue>
@@ -1615,7 +1615,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="33"
             column="10"/>
     </issue>
@@ -1638,7 +1638,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="34"
             column="10"/>
     </issue>
@@ -1661,7 +1661,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="35"
             column="10"/>
     </issue>
@@ -1684,7 +1684,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="36"
             column="10"/>
     </issue>
@@ -1707,7 +1707,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="37"
             column="10"/>
     </issue>
@@ -1730,7 +1730,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="38"
             column="10"/>
     </issue>
@@ -1753,7 +1753,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="39"
             column="10"/>
     </issue>
@@ -1776,7 +1776,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="40"
             column="10"/>
     </issue>
@@ -1799,7 +1799,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="41"
             column="10"/>
     </issue>
@@ -1822,7 +1822,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="42"
             column="10"/>
     </issue>
@@ -1845,7 +1845,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="43"
             column="10"/>
     </issue>
@@ -1868,7 +1868,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="44"
             column="10"/>
     </issue>
@@ -1891,7 +1891,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="45"
             column="10"/>
     </issue>
@@ -1914,7 +1914,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="46"
             column="10"/>
     </issue>
@@ -1937,7 +1937,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="47"
             column="10"/>
     </issue>
@@ -1960,7 +1960,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="48"
             column="10"/>
     </issue>
@@ -1983,7 +1983,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="49"
             column="10"/>
     </issue>
@@ -2006,7 +2006,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="50"
             column="10"/>
     </issue>
@@ -2029,7 +2029,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="51"
             column="10"/>
     </issue>
@@ -2052,7 +2052,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="52"
             column="10"/>
     </issue>
@@ -2075,7 +2075,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="53"
             column="10"/>
     </issue>
@@ -2098,7 +2098,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="54"
             column="10"/>
     </issue>
@@ -2121,7 +2121,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="55"
             column="10"/>
     </issue>
@@ -2144,7 +2144,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="56"
             column="10"/>
     </issue>
@@ -2167,7 +2167,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="57"
             column="10"/>
     </issue>
@@ -2190,7 +2190,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="58"
             column="10"/>
     </issue>
@@ -2213,7 +2213,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="59"
             column="10"/>
     </issue>
@@ -2236,7 +2236,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="60"
             column="10"/>
     </issue>
@@ -2259,7 +2259,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="61"
             column="10"/>
     </issue>
@@ -2282,7 +2282,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="62"
             column="13"/>
     </issue>
@@ -2305,7 +2305,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="63"
             column="13"/>
     </issue>
@@ -2328,7 +2328,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="64"
             column="13"/>
     </issue>
@@ -2351,7 +2351,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="65"
             column="13"/>
     </issue>
@@ -2374,7 +2374,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="67"
             column="10"/>
     </issue>
@@ -2397,7 +2397,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="68"
             column="10"/>
     </issue>
@@ -2420,7 +2420,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="69"
             column="10"/>
     </issue>
@@ -2443,7 +2443,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="70"
             column="10"/>
     </issue>
@@ -2466,7 +2466,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="71"
             column="10"/>
     </issue>
@@ -2489,7 +2489,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="72"
             column="10"/>
     </issue>
@@ -2512,7 +2512,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\ssdk_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\ssdk_strings.xml"
             line="73"
             column="10"/>
     </issue>
@@ -2535,7 +2535,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\strings.xml"
             line="4"
             column="13"/>
     </issue>
@@ -2558,7 +2558,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\strings.xml"
             line="6"
             column="13"/>
     </issue>
@@ -2581,7 +2581,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\strings.xml"
             line="7"
             column="13"/>
     </issue>
@@ -2604,7 +2604,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\strings.xml"
             line="8"
             column="13"/>
     </issue>
@@ -2627,7 +2627,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\strings.xml"
             line="9"
             column="13"/>
     </issue>
@@ -2650,7 +2650,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\strings.xml"
             line="10"
             column="13"/>
     </issue>
@@ -2673,7 +2673,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\strings.xml"
             line="11"
             column="13"/>
     </issue>
@@ -2696,7 +2696,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\strings.xml"
             line="12"
             column="13"/>
     </issue>
@@ -2719,7 +2719,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="                  ~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\strings.xml"
             line="14"
             column="19"/>
     </issue>
@@ -2742,7 +2742,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\strings.xml"
             line="22"
             column="13"/>
     </issue>
@@ -2765,7 +2765,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\strings.xml"
             line="23"
             column="13"/>
     </issue>
@@ -2788,7 +2788,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\strings.xml"
             line="24"
             column="13"/>
     </issue>
@@ -2811,7 +2811,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\strings.xml"
             line="25"
             column="13"/>
     </issue>
@@ -2834,7 +2834,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\strings.xml"
             line="26"
             column="13"/>
     </issue>
@@ -2857,7 +2857,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\strings.xml"
             line="27"
             column="13"/>
     </issue>
@@ -2880,7 +2880,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\strings.xml"
             line="28"
             column="13"/>
     </issue>
@@ -2903,7 +2903,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\strings.xml"
             line="29"
             column="13"/>
     </issue>
@@ -2926,7 +2926,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\strings.xml"
             line="30"
             column="13"/>
     </issue>
@@ -2949,7 +2949,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\strings.xml"
             line="31"
             column="13"/>
     </issue>
@@ -2972,7 +2972,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\strings.xml"
             line="32"
             column="13"/>
     </issue>
@@ -2995,7 +2995,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\strings.xml"
             line="33"
             column="13"/>
     </issue>
@@ -3018,7 +3018,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\strings.xml"
             line="34"
             column="13"/>
     </issue>
@@ -3041,7 +3041,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\strings.xml"
             line="35"
             column="13"/>
     </issue>
@@ -3064,7 +3064,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\strings.xml"
             line="36"
             column="13"/>
     </issue>
@@ -3087,7 +3087,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\strings.xml"
             line="37"
             column="13"/>
     </issue>
@@ -3110,7 +3110,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\strings.xml"
             line="38"
             column="13"/>
     </issue>
@@ -3133,7 +3133,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\strings.xml"
             line="40"
             column="13"/>
     </issue>
@@ -3156,7 +3156,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\strings.xml"
             line="41"
             column="13"/>
     </issue>
@@ -3179,7 +3179,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\strings.xml"
             line="42"
             column="13"/>
     </issue>
@@ -3202,7 +3202,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\strings.xml"
             line="44"
             column="13"/>
     </issue>
@@ -3225,7 +3225,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\strings.xml"
             line="45"
             column="13"/>
     </issue>
@@ -3248,7 +3248,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\strings.xml"
             line="47"
             column="13"/>
     </issue>
@@ -3271,7 +3271,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\strings.xml"
             line="48"
             column="13"/>
     </issue>
@@ -3294,7 +3294,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\strings.xml"
             line="50"
             column="13"/>
     </issue>
@@ -3317,7 +3317,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\strings.xml"
             line="52"
             column="13"/>
     </issue>
@@ -3340,7 +3340,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\strings.xml"
             line="53"
             column="13"/>
     </issue>
@@ -3363,7 +3363,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\tb_munion_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\tb_munion_strings.xml"
             line="5"
             column="13"/>
     </issue>
@@ -3386,7 +3386,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_common_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_common_strings.xml"
             line="3"
             column="13"/>
     </issue>
@@ -3409,7 +3409,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_common_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_common_strings.xml"
             line="4"
             column="13"/>
     </issue>
@@ -3432,7 +3432,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_common_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_common_strings.xml"
             line="5"
             column="13"/>
     </issue>
@@ -3455,7 +3455,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_common_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_common_strings.xml"
             line="6"
             column="13"/>
     </issue>
@@ -3478,7 +3478,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_common_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_common_strings.xml"
             line="7"
             column="13"/>
     </issue>
@@ -3501,7 +3501,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_common_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_common_strings.xml"
             line="8"
             column="10"/>
     </issue>
@@ -3524,7 +3524,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_common_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_common_strings.xml"
             line="9"
             column="10"/>
     </issue>
@@ -3547,7 +3547,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_common_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_common_strings.xml"
             line="10"
             column="10"/>
     </issue>
@@ -3570,7 +3570,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_common_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_common_strings.xml"
             line="11"
             column="10"/>
     </issue>
@@ -3593,7 +3593,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_common_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_common_strings.xml"
             line="12"
             column="10"/>
     </issue>
@@ -3616,7 +3616,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_common_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_common_strings.xml"
             line="13"
             column="10"/>
     </issue>
@@ -3639,7 +3639,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_common_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_common_strings.xml"
             line="14"
             column="10"/>
     </issue>
@@ -3662,7 +3662,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_common_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_common_strings.xml"
             line="15"
             column="10"/>
     </issue>
@@ -3685,7 +3685,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_common_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_common_strings.xml"
             line="16"
             column="10"/>
     </issue>
@@ -3708,7 +3708,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_common_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_common_strings.xml"
             line="17"
             column="10"/>
     </issue>
@@ -3731,7 +3731,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
             line="3"
             column="13"/>
     </issue>
@@ -3754,7 +3754,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
             line="4"
             column="13"/>
     </issue>
@@ -3777,7 +3777,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
             line="5"
             column="13"/>
     </issue>
@@ -3800,7 +3800,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
             line="6"
             column="13"/>
     </issue>
@@ -3823,7 +3823,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
             line="7"
             column="13"/>
     </issue>
@@ -3846,7 +3846,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
             line="8"
             column="13"/>
     </issue>
@@ -3869,7 +3869,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
             line="9"
             column="13"/>
     </issue>
@@ -3892,7 +3892,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
             line="10"
             column="13"/>
     </issue>
@@ -3915,7 +3915,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
             line="11"
             column="13"/>
     </issue>
@@ -3938,7 +3938,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
             line="12"
             column="13"/>
     </issue>
@@ -3961,7 +3961,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
             line="13"
             column="13"/>
     </issue>
@@ -3984,7 +3984,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
             line="14"
             column="13"/>
     </issue>
@@ -4007,7 +4007,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
             line="15"
             column="13"/>
     </issue>
@@ -4030,7 +4030,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
             line="16"
             column="13"/>
     </issue>
@@ -4053,7 +4053,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
             line="17"
             column="13"/>
     </issue>
@@ -4076,7 +4076,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
             line="18"
             column="13"/>
     </issue>
@@ -4099,7 +4099,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
             line="19"
             column="13"/>
     </issue>
@@ -4122,7 +4122,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
             line="20"
             column="13"/>
     </issue>
@@ -4145,7 +4145,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
             line="21"
             column="13"/>
     </issue>
@@ -4168,7 +4168,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
             line="22"
             column="13"/>
     </issue>
@@ -4191,7 +4191,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
             line="23"
             column="13"/>
     </issue>
@@ -4214,7 +4214,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
             line="24"
             column="13"/>
     </issue>
@@ -4237,7 +4237,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
             line="25"
             column="13"/>
     </issue>
@@ -4260,7 +4260,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
             line="26"
             column="13"/>
     </issue>
@@ -4283,7 +4283,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
             line="27"
             column="13"/>
     </issue>
@@ -4306,7 +4306,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
             line="28"
             column="13"/>
     </issue>
@@ -4329,7 +4329,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
             line="29"
             column="13"/>
     </issue>
@@ -4352,7 +4352,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
             line="31"
             column="13"/>
     </issue>
@@ -4375,7 +4375,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
             line="32"
             column="13"/>
     </issue>
@@ -4398,7 +4398,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
             line="33"
             column="13"/>
     </issue>
@@ -4421,7 +4421,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
             line="34"
             column="13"/>
     </issue>
@@ -4444,7 +4444,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
             line="35"
             column="13"/>
     </issue>
@@ -4467,7 +4467,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
             line="36"
             column="13"/>
     </issue>
@@ -4490,7 +4490,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
             line="37"
             column="13"/>
     </issue>
@@ -4513,7 +4513,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
             line="38"
             column="13"/>
     </issue>
@@ -4536,7 +4536,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
             line="39"
             column="13"/>
     </issue>
@@ -4559,7 +4559,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
             line="41"
             column="13"/>
     </issue>
@@ -4582,7 +4582,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
             line="42"
             column="13"/>
     </issue>
@@ -4605,7 +4605,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="                  ~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_fb_strings.xml"
             line="58"
             column="19"/>
     </issue>
@@ -4628,7 +4628,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_update_string.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_update_string.xml"
             line="4"
             column="10"/>
     </issue>
@@ -4651,7 +4651,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_update_string.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_update_string.xml"
             line="5"
             column="10"/>
     </issue>
@@ -4674,7 +4674,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_update_string.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_update_string.xml"
             line="6"
             column="10"/>
     </issue>
@@ -4697,7 +4697,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_update_string.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_update_string.xml"
             line="7"
             column="10"/>
     </issue>
@@ -4720,7 +4720,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_update_string.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_update_string.xml"
             line="8"
             column="10"/>
     </issue>
@@ -4743,7 +4743,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_update_string.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_update_string.xml"
             line="9"
             column="10"/>
     </issue>
@@ -4766,7 +4766,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_update_string.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_update_string.xml"
             line="10"
             column="10"/>
     </issue>
@@ -4789,7 +4789,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_update_string.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_update_string.xml"
             line="11"
             column="10"/>
     </issue>
@@ -4812,7 +4812,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_update_string.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_update_string.xml"
             line="12"
             column="10"/>
     </issue>
@@ -4835,7 +4835,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_update_string.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_update_string.xml"
             line="13"
             column="10"/>
     </issue>
@@ -4858,7 +4858,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_update_string.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_update_string.xml"
             line="14"
             column="10"/>
     </issue>
@@ -4881,7 +4881,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_update_string.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_update_string.xml"
             line="15"
             column="10"/>
     </issue>
@@ -4904,7 +4904,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_update_string.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_update_string.xml"
             line="16"
             column="10"/>
     </issue>
@@ -4927,7 +4927,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="G:\AndroidStudio\FirstRepository\Yard\SoftwareYard\res\values\umeng_update_string.xml"
+            file="D:\DeveloperTools\Code\Android\Yard\SoftwareYard\res\values\umeng_update_string.xml"
             line="17"
             column="10"/>
     </issue>

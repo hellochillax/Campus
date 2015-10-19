@@ -24,4 +24,4 @@
         android:divider="@null"
         android:layout_below="@id/topbar"
         ></ListView>
-</RelativeLayout><!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/layout/course_detail_layout.xml -->
+</RelativeLayout><!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/layout/course_detail_layout.xml -->

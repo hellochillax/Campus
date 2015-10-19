@@ -1,22 +1,13 @@
 package com.chillax.softwareyard.activity;
 
-import android.app.NotificationManager;
-import android.app.PendingIntent;
-import android.content.BroadcastReceiver;
-import android.content.Context;
-import android.content.Intent;
 import android.content.IntentFilter;
 import android.net.ConnectivityManager;
 import android.os.Build;
-import android.os.Bundle;
-import android.os.SystemClock;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
-import android.support.v4.app.NotificationCompat;
 import android.view.KeyEvent;
 import android.view.View;
-import android.widget.Toast;
 
 import com.chillax.config.Constant;
 import com.chillax.softwareyard.R;
@@ -102,21 +93,12 @@ public class MainActivity extends FragmentActivity implements
             }
         });
         UmengUpdateAgent.update(this);
-        IntentFilter filter=new IntentFilter("com.chillax.softwareyard.fragment.MainActivity");
-        registerReceiver(receiver,filter);
         Bmob.initialize(this, Constant.appId);
         // 使用推送服务时的初始化操作
         BmobInstallation.getCurrentInstallation(this).save();
         // 启动推送服务
         BmobPush.startWork(this, Constant.appId);
     }
-
-    private BroadcastReceiver receiver=new BroadcastReceiver() {
-        @Override
-        public void onReceive(Context context, Intent intent) {
-            mActionBar.refreshPopuWeek();
-        }
-    };
 
     @Override
     public void setTabSelection(int index) {
@@ -173,7 +155,9 @@ public class MainActivity extends FragmentActivity implements
 //                break;
 //        }
     }
-
+    public ActionBar getActionBar2(){
+        return mActionBar;
+    }
     @Override
     public void onMoreClicked(View view) {
         switch (currIndex) {
@@ -200,17 +184,17 @@ public class MainActivity extends FragmentActivity implements
         }
     }
 
-    private long lastTime = 0;
-
-    @Override
-    public void onBackPressed() {
-        if (System.currentTimeMillis() - lastTime > 2000) {
-            lastTime = System.currentTimeMillis();
-            Toast.makeText(this, "再按一次退出", Toast.LENGTH_SHORT).show();
-        } else {
-            super.onBackPressed();
-        }
-    }
+//    private long lastTime = 0;
+//
+//    @Override
+//    public void onBackPressed() {
+//        if (System.currentTimeMillis() - lastTime > 2000) {
+//            lastTime = System.currentTimeMillis();
+//            Toast.makeText(this, "再按一次退出", Toast.LENGTH_SHORT).show();
+//        } else {
+//            super.onBackPressed();
+//        }
+//    }
 
     /**
      * 设置程序后台运行
@@ -228,7 +212,6 @@ public class MainActivity extends FragmentActivity implements
         new DownDBDao(this).onDestroy();
         unregisterReceiver(mNetListener);
         statesUtils.setAppStates(false);
-        unregisterReceiver(receiver);
         super.onDestroy();
     }
 

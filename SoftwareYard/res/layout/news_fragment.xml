@@ -3,6 +3,7 @@
     xmlns:app="com.yalantis.phoenix.PullToRefreshView"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#ffffffff"
     android:gravity="center">
 
     <com.yalantis.phoenix.PullToRefreshView

@@ -8,4 +8,4 @@
         android:layout_height="wrap_content"
         android:scrollbars="none">
     </com.chillax.softwareyard.customview.CusListView>
-</RelativeLayout><!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/layout/exam_socre_list_detail_list.xml -->
+</RelativeLayout><!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/layout/exam_socre_list_detail_list.xml -->

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/umeng_fb_strings.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/umeng_fb_strings.xml -->
     <eat-comment/>
     <string-array name="umeng_fb_contact_key_array">
         <item>@string/umeng_fb_contact_key_email</item>
@@ -18,7 +18,7 @@
         <item>Feedback</item>
         <item>FAQ</item>
     </string-array>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/strings.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/strings.xml -->
     <eat-comment/>
     <string-array name="welcome_tips">
         <item>主人，奴婢在此等候多时了</item>
@@ -27,29 +27,29 @@
         <item>欢迎归来，我亲爱的主人</item>
         <item>我是小灵机器人，很高兴为您服务</item>
     </string-array>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/attrs.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/attrs.xml -->
     <eat-comment/>
     <attr format="reference" name="SwipeBackLayoutStyle"/>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/vpi__attrs.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/vpi__attrs.xml -->
     <eat-comment/>
     <attr format="boolean" name="centered"/>
     <attr format="color" name="selectedColor"/>
     <attr format="dimension" name="strokeWidth"/>
     <attr format="color" name="unselectedColor"/>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/vpi__defaults.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/vpi__defaults.xml -->
     <eat-comment/>
     <bool name="default_circle_indicator_centered">true</bool>
     <bool name="default_circle_indicator_snap">false</bool>
     <bool name="default_line_indicator_centered">true</bool>
     <bool name="default_title_indicator_selected_bold">true</bool>
     <bool name="default_underline_indicator_fades">true</bool>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/color.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/color.xml -->
     <eat-comment/>
     <color name="actionbar_bg">#55a6ff</color>
     <color name="black">#000000</color>
     <color name="blue">#42d4c7</color>
     <color name="button_back">#ae9471</color>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/vpi__defaults.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/vpi__defaults.xml -->
     <eat-comment/>
     <color name="default_circle_indicator_fill_color">#FFFFFFFF</color>
     <color name="default_circle_indicator_page_color">#00000000</color>
@@ -60,24 +60,24 @@
     <color name="default_title_indicator_selected_color">#FFFFFFFF</color>
     <color name="default_title_indicator_text_color">#BBFFFFFF</color>
     <color name="default_underline_indicator_selected_color">#FF33B5E5</color>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/color.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/color.xml -->
     <eat-comment/>
     <color name="green">#009999</color>
     <color name="light">#FFFC8D3B</color>
     <color name="purple">#CC3366</color>
     <color name="red">#cc3333</color>
     <color name="red_white">#FFE7BA</color>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/build/intermediates/exploded-aar/com.yalantis/library2/1.2.2/res/values/values.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/build/intermediates/exploded-aar/com.yalantis/library2/1.2.2/res/values/values.xml -->
     <eat-comment/>
     <color name="sky_background">#228FC1</color>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/tb_munion_strings.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/tb_munion_strings.xml -->
     <eat-comment/>
     <color name="tb_munion_item_force">#e3e3e3</color>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/color.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/color.xml -->
     <eat-comment/>
     <color name="text">#595959</color>
     <color name="title">#5b4120</color>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/umeng_fb_color.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/umeng_fb_color.xml -->
     <eat-comment/>
     <color name="umeng_fb_audo_dialog_bg">#F4F0745F</color>
     <color name="umeng_fb_background">#F6F6F6</color>
@@ -87,7 +87,7 @@
     <color name="umeng_fb_secondary_text_light">#8A000000</color>
     <color name="umeng_fb_tab_bg_pressed">#6633B5E5</color>
     <color name="umeng_fb_white">#FFFFFF</color>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/vpi__colors.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/vpi__colors.xml -->
     <eat-comment/>
     <color name="vpi__background_holo_dark">#ff000000</color>
     <color name="vpi__background_holo_light">#fff3f3f3</color>
@@ -97,7 +97,7 @@
     <color name="vpi__bright_foreground_holo_light">@color/vpi__background_holo_dark</color>
     <color name="vpi__bright_foreground_inverse_holo_dark">@color/vpi__bright_foreground_holo_light</color>
     <color name="vpi__bright_foreground_inverse_holo_light">@color/vpi__bright_foreground_holo_dark</color>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/color.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/color.xml -->
     <eat-comment/>
     <color name="white">#FFF8DC</color>
     <color name="yellow">#FFCC00</color>
@@ -112,14 +112,14 @@
     <declare-styleable name="TitlePageIndicator"><attr format="dimension" name="clipPadding"/><attr format="color" name="footerColor"/><attr format="dimension" name="footerLineHeight"/><attr name="footerIndicatorStyle"><enum name="none" value="0"/><enum name="triangle" value="1"/><enum name="underline" value="2"/></attr><attr format="dimension" name="footerIndicatorHeight"/><attr format="dimension" name="footerIndicatorUnderlinePadding"/><attr format="dimension" name="footerPadding"/><attr name="linePosition"><enum name="bottom" value="0"/><enum name="top" value="1"/></attr><attr name="selectedColor"/><attr format="boolean" name="selectedBold"/><attr name="android:textColor"/><attr name="android:textSize"/><attr format="dimension" name="titlePadding"/><attr format="dimension" name="topPadding"/><attr name="android:background"/></declare-styleable>
     <declare-styleable name="UnderlinePageIndicator"><attr format="boolean" name="fades"/><attr format="integer" name="fadeDelay"/><attr format="integer" name="fadeLength"/><attr name="selectedColor"/><attr name="android:background"/></declare-styleable>
     <declare-styleable name="ViewPagerIndicator"><attr format="reference" name="vpiCirclePageIndicatorStyle"/><attr format="reference" name="vpiIconPageIndicatorStyle"/><attr format="reference" name="vpiLinePageIndicatorStyle"/><attr format="reference" name="vpiTitlePageIndicatorStyle"/><attr format="reference" name="vpiTabPageIndicatorStyle"/><attr format="reference" name="vpiUnderlinePageIndicatorStyle"/></declare-styleable>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/dimens.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="bottom_tab_font_size">14.0sp</dimen>
     <dimen name="bottom_tab_padding_drawable">2.0dip</dimen>
     <dimen name="bottom_tab_padding_up">2.0dip</dimen>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/vpi__defaults.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/vpi__defaults.xml -->
     <eat-comment/>
     <dimen name="default_circle_indicator_radius">3dp</dimen>
     <dimen name="default_circle_indicator_stroke_width">1dp</dimen>
@@ -134,7 +134,7 @@
     <dimen name="default_title_indicator_text_size">15dp</dimen>
     <dimen name="default_title_indicator_title_padding">5dp</dimen>
     <dimen name="default_title_indicator_top_padding">7dp</dimen>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/dimens.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="font_size_description">15sp</dimen>
     <dimen name="font_size_new_tag">11sp</dimen>
@@ -146,7 +146,7 @@
     <dimen name="margin_setting">20dp</dimen>
     <dimen name="padding_default">8dp</dimen>
     <dimen name="padding_new_tag">3dp</dimen>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/picture_dimens.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/picture_dimens.xml -->
     <eat-comment/>
     <dimen name="pciture_view_pager_margin">80dp</dimen>
     <dimen name="picture_action_bar_button_margin">0dp</dimen>
@@ -167,13 +167,13 @@
     <dimen name="picture_pull_to_refresh_loading_text_size">14dp</dimen>
     <dimen name="picture_reload_text_size">16dp</dimen>
     <dimen name="picture_user_guide_margin">8dp</dimen>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/dimens.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="radius_default">3dp</dimen>
     <dimen name="shadow_width">5dp</dimen>
     <dimen name="size_list_image">64dp</dimen>
     <dimen name="slidingmenu_offset">180dp</dimen>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/umeng_fb_dimens.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/umeng_fb_dimens.xml -->
     <eat-comment/>
     <dimen name="umeng_fb_item_content_size">14sp</dimen>
     <dimen name="umeng_fb_item_height">48dp</dimen>
@@ -182,7 +182,7 @@
     <dimen name="umeng_fb_normal_size">13dp</dimen>
     <dimen name="umeng_fb_record_btn_text_size">20sp</dimen>
     <dimen name="umeng_fb_spinner_padding_left">12dp</dimen>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/drawables.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/drawables.xml -->
     <eat-comment/>
     <item name="black" type="drawable">#000000</item>
     <item name="green" type="drawable">#ff40929C</item>
@@ -190,20 +190,20 @@
     <item name="transparent" type="drawable">#00000000</item>
     <item name="white" type="drawable">#ffffffff</item>
     <item name="yellow" type="drawable">#ffff9000</item>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/ids.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/ids.xml -->
     <eat-comment/>
     <item name="selected_view" type="id"/>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/vpi__defaults.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/vpi__defaults.xml -->
     <eat-comment/>
     <integer name="default_circle_indicator_orientation">0</integer>
     <integer name="default_title_indicator_footer_indicator_style">2</integer>
     <integer name="default_title_indicator_line_position">0</integer>
     <integer name="default_underline_indicator_fade_delay">300</integer>
     <integer name="default_underline_indicator_fade_length">400</integer>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/integers.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/integers.xml -->
     <eat-comment/>
     <integer name="slideAnimTime">300</integer>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/umeng_update_string.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/umeng_update_string.xml -->
     <eat-comment/>
     <string name="UMAppUpdate">App updating</string>
     <string name="UMBreak_Network">Please make sure you are connected to internet,update failed</string>
@@ -219,34 +219,34 @@
     <string name="UMUpdateNow">Update now</string>
     <string name="UMUpdateSize">Update size: </string>
     <string name="UMUpdateTitle">New version found</string>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/strings.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/strings.xml -->
     <eat-comment/>
     <string name="about">About</string>
     <string name="aboutMessage">This is just a simple demo for the Open Source SwipeListView Android Library by 47 Degrees. Find all source, documentation and packaged downloads at GitHub. Cheers!</string>
     <string name="animationTime">Animation Time (Default: 0)</string>
     <string name="app_name">i 软院</string>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/ssdk_strings.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="baidutieba">百度贴吧</string>
     <string name="baidutieba_client_inavailable">目前您的百度贴吧版本过低或未安装，需要安装百度贴吧才能使用</string>
     <string name="bluetooth">蓝牙</string>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/strings.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/strings.xml -->
     <eat-comment/>
     <string name="both">Both</string>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/oks_strings.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/oks_strings.xml -->
     <eat-comment/>
     <string name="cancel">取消</string>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/strings.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/strings.xml -->
     <eat-comment/>
     <string name="cantOpen">Can\'t open this application</string>
     <string name="choice">Choice</string>
     <string name="discard">Discard</string>
     <string name="dismiss">Dismiss</string>
     <string name="dontShow">Don\'t show this message again</string>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/ssdk_strings.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="douban">豆瓣</string>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/strings.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/strings.xml -->
     <eat-comment/>
     <string name="dp">dp</string>
     <string name="drop_down_list_footer_default_text"/>
@@ -256,31 +256,31 @@
     <string name="drop_down_list_header_loading_text">加载中…</string>
     <string name="drop_down_list_header_pull_text">Drop Down to refresh…</string>
     <string name="drop_down_list_header_release_text">Release to refresh…</string>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/ssdk_strings.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="dropbox">Dropbox</string>
     <string name="email">邮件</string>
     <string name="evernote">印象笔记</string>
     <string name="facebook">Facebook</string>
     <string name="facebookmessenger">Facebook Messenger</string>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/oks_strings.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/oks_strings.xml -->
     <eat-comment/>
     <string name="finish">完成</string>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/ssdk_strings.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="flickr">Flickr</string>
     <string name="foursquare">FourSquare</string>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/strings.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/strings.xml -->
     <eat-comment/>
     <string name="goToGitHub">Go to GitHub</string>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/ssdk_strings.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="google_plus_client_inavailable">Google+ 版本过低或者没有安装，需要升级或安装Google+才能使用！</string>
     <string name="googleplus">Google+</string>
     <string name="instagram">Instagram</string>
     <string name="instagram_client_inavailable">Instagram版本过低或者没有安装，需要升级或安装Instagram才能使用！</string>
     <string name="instapager_email_or_password_incorrect">Email或密码不正确</string>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/instapaper_strings.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/instapaper_strings.xml -->
     <eat-comment/>
     <string formatted="false" name="instapager_login_html"><![CDATA[
 <!DOCTYPE html>
@@ -348,7 +348,7 @@ function login(form){
 </body>
 </html>
 ]]></string>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/ssdk_strings.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="instapaper">Instapaper</string>
     <string name="instapaper_email">邮箱</string>
@@ -363,43 +363,43 @@ function login(form){
     <string name="laiwang">来往</string>
     <string name="laiwang_client_inavailable">目前您的来往版本过低或未安装，需要安装来往才能使用</string>
     <string name="laiwangmoments">来往动态</string>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/strings.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/strings.xml -->
     <eat-comment/>
     <string name="left">Left</string>
     <string name="leftAction">Left Action</string>
     <string name="leftOffset">Left Offset (%1$s dp)</string>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/ssdk_strings.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="line">Line</string>
     <string name="line_client_inavailable">目前您的Line版本过低或未安装，需要安装Line才能使用</string>
     <string name="linkedin">领英</string>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/oks_strings.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/oks_strings.xml -->
     <eat-comment/>
     <string name="list_friends">%s的朋友</string>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/strings.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/strings.xml -->
     <eat-comment/>
     <string name="loading">Loading</string>
     <string name="milliseconds">Milliseconds</string>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/ssdk_strings.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="mingdao">明道</string>
     <string name="mingdao_share_content">网页分享</string>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/strings.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/strings.xml -->
     <eat-comment/>
     <string name="mode">Swipe Mode</string>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/oks_strings.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/oks_strings.xml -->
     <eat-comment/>
     <string name="multi_share">图文分享</string>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/ssdk_strings.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="neteasemicroblog">网易微博</string>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/strings.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/strings.xml -->
     <eat-comment/>
     <string name="newTag">New!</string>
     <string name="ok">Ok</string>
     <string name="openOnLongPress">Open On Long Press</string>
     <string name="others">Others</string>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/pull_refresh_strings.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/pull_refresh_strings.xml -->
     <eat-comment/>
     <string name="picture_image_loading">正在加载…</string>
     <string name="picture_load_image_failed">点击屏幕，重新加载</string>
@@ -407,15 +407,15 @@ function login(form){
     <string name="picture_previous_album">上一组：</string>
     <string name="picture_save_fail">保存图片失败</string>
     <string name="picture_save_succeed">图片已保存到相册</string>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/ssdk_strings.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="pinterest">Pinterest</string>
     <string name="pinterest_client_inavailable">Pinterest版本过低或者没有安装，需要升级或安装Pinterest才能使用！</string>
     <string name="pocket">Pocket</string>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/oks_strings.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/oks_strings.xml -->
     <eat-comment/>
     <string name="pull_to_refresh">下拉刷新</string>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/pull_refresh_strings.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/pull_refresh_strings.xml -->
     <eat-comment/>
     <string name="pull_to_refresh_footer_hint_ready">松开载入更多</string>
     <string name="pull_to_refresh_header_hint_loading">@string/pushmsg_center_load_more_ongoing_text</string>
@@ -432,32 +432,32 @@ function login(form){
     <string name="pushmsg_center_pull_down_update_time">上次刷新时间 : </string>
     <string name="pushmsg_center_pull_release_text">松开获取更多</string>
     <string name="pushmsg_center_pull_up_text">松开加载更多</string>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/ssdk_strings.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="qq">QQ</string>
     <string name="qq_client_inavailable">QQ 版本过低或者没有安装，需要升级或安装QQ才能使用！</string>
     <string name="qzone">QQ空间</string>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/oks_strings.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/oks_strings.xml -->
     <eat-comment/>
     <string name="refreshing">刷新中…</string>
     <string name="release_to_refresh">松开刷新</string>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/ssdk_strings.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="renren">人人网</string>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/strings.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/strings.xml -->
     <eat-comment/>
     <string name="reveal">Reveal</string>
     <string name="right">Right</string>
     <string name="rightAction">Right Action</string>
     <string name="rightOffset">Right Offset (%1$s dp)</string>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/oks_strings.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/oks_strings.xml -->
     <eat-comment/>
     <string name="select_a_friend">请选择一个朋友</string>
     <string name="select_one_plat_at_least">请选择一个目标平台</string>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/strings.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/strings.xml -->
     <eat-comment/>
     <string name="settings">Settings</string>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/oks_strings.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/oks_strings.xml -->
     <eat-comment/>
     <string name="shake2share">摇晃手机！</string>
     <string name="share">分享</string>
@@ -465,31 +465,31 @@ function login(form){
     <string name="share_completed">分享成功</string>
     <string name="share_failed">分享失败</string>
     <string name="share_to">分享到</string>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/ssdk_strings.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="share_to_baidutieba">分享到百度贴吧</string>
     <string name="share_to_mingdao">分享到明道</string>
     <string name="share_to_qq">分享到QQ</string>
     <string name="share_to_qzone">分享到QQ空间</string>
     <string name="share_to_qzone_default">来自%s的分享</string>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/oks_strings.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/oks_strings.xml -->
     <eat-comment/>
     <string name="sharing">分享操作正在后台进行…</string>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/ssdk_strings.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="shortmessage">信息</string>
     <string name="sinaweibo">新浪微博</string>
     <string name="sohumicroblog">搜狐微博</string>
     <string name="sohusuishenkan">搜狐随身看</string>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/tb_munion_strings.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/tb_munion_strings.xml -->
     <eat-comment/>
     <string name="tb_munion_tip_download_prefix">正在下载:</string>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/ssdk_strings.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="tencentweibo">腾讯微博</string>
     <string name="tumblr">Tumblr</string>
     <string name="twitter">Twitter</string>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/umeng_common_strings.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/umeng_common_strings.xml -->
     <eat-comment/>
     <string name="umeng_common_action_cancel">Cancel</string>
     <string name="umeng_common_action_continue">Continue</string>
@@ -506,7 +506,7 @@ function login(form){
     <string name="umeng_common_silent_download_finish">New version is ready,click to install it.</string>
     <string name="umeng_common_start_download_notification">Download start.</string>
     <string name="umeng_common_start_patch_notification">Patch start.</string>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/umeng_fb_strings.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/umeng_fb_strings.xml -->
     <eat-comment/>
     <string name="umeng_fb_back">Back</string>
     <string name="umeng_fb_change_contact_title">Change contact Info</string>
@@ -546,13 +546,13 @@ function login(form){
     <string name="umeng_fb_time_this_year_format">MM/dd HH:mm:ss</string>
     <string name="umeng_fb_title">Feedback</string>
     <string name="umeng_fb_write_contact_title">Write contact Info</string>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/ssdk_strings.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="use_login_button">请改用“登录”按钮</string>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/strings.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/strings.xml -->
     <eat-comment/>
     <string name="visit47">Visit 47deg</string>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/ssdk_strings.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="vkontakte">VK</string>
     <string name="website">http://www.mob.com</string>
@@ -564,16 +564,16 @@ function login(form){
     <string name="weibo_upload_content">分享图片</string>
     <string name="whatsapp">WhatsApp</string>
     <string name="whatsapp_client_inavailable">目前您的WhatsApp版本过低或未安装，需要安装WhatsApp才能使用</string>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/pull_refresh_strings.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/pull_refresh_strings.xml -->
     <eat-comment/>
     <string name="xsearch_loading">正在刷新…</string>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/ssdk_strings.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="yixin">易信</string>
     <string name="yixin_client_inavailable">目前您的易信版本过低或未安装，需要安装易信才能使用</string>
     <string name="yixinmoments">易信朋友圈</string>
     <string name="youdao">有道云笔记</string>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/styles.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppBaseTheme" parent="android:Theme.Holo.Light.NoActionBar">
     </style>
@@ -635,7 +635,7 @@ function login(form){
         <item name="shadow_right">@drawable/shadow_right</item>
         <item name="shadow_bottom">@drawable/shadow_bottom</item>
     </style>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/vpi__styles.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/vpi__styles.xml -->
     <eat-comment/>
     <style name="TextAppearance.TabPageIndicator" parent="Widget">
         <item name="android:textStyle">bold</item>
@@ -661,7 +661,7 @@ function login(form){
         <item name="android:textSize">12sp</item>
         <item name="android:maxLines">1</item>
     </style>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/styles.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/styles.xml -->
     <eat-comment/>
     <style name="bottom_menu_iv">
         <item name="android:layout_width">25dp</item>
@@ -672,7 +672,7 @@ function login(form){
         <item name="android:textColor">#000000</item>
         <item name="android:layout_marginTop">2dp</item>
     </style>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/chillax_custom.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/chillax_custom.xml -->
     <eat-comment/>
     <style name="cus_dialog_style" parent="android:style/Theme.Dialog">
         <item name="android:windowBackground">@drawable/photo_choose_bg</item>
@@ -680,7 +680,7 @@ function login(form){
     <style name="cus_dialog_style2" parent="android:style/Theme.Dialog">
         <item name="android:windowBackground">@drawable/photo_choose_bg2</item>
     </style>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/styles.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/styles.xml -->
     <eat-comment/>
     <style name="login_edit_style">
         <item name="android:background">@null</item>
@@ -694,13 +694,13 @@ function login(form){
         <item name="android:textCursorDrawable">@null</item>
         <item name="android:singleLine">true</item>
     </style>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/chillax_custom.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/chillax_custom.xml -->
     <eat-comment/>
     <style name="main_menu_animstyle">
         <item name="android:windowEnterAnimation">@anim/photo_dialog_in_anim</item>
         <item name="android:windowExitAnimation">@anim/photo_dialog_out_anim</item>
     </style>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/styles.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/styles.xml -->
     <eat-comment/>
     <style name="radio_bottom">
         <item name="android:textSize">@dimen/bottom_tab_font_size</item>
@@ -752,13 +752,13 @@ function login(form){
         <item name="android:layout_height">0dp</item>
         <item name="android:layout_weight">1</item>
     </style>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/chillax_custom.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/chillax_custom.xml -->
     <eat-comment/>
     <style name="transparentFrameWindowStyle" parent="android:style/Theme.Dialog">
         <item name="android:windowBackground">@drawable/photo_choose_bg</item>
         <item name="android:windowNoTitle">true</item>
     </style>
-    <!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/values/umeng_fb_style.xml -->
+    <!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/values/umeng_fb_style.xml -->
     <eat-comment/>
     <style name="umeng_fb_image_dialog_anim">
         <item name="android:windowEnterAnimation">@anim/umeng_fb_dialog_enter_anim</item>

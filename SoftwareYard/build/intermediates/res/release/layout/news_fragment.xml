@@ -3,6 +3,7 @@
     xmlns:app="com.yalantis.phoenix.PullToRefreshView"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#ffffffff"
     android:gravity="center">
 
     <com.yalantis.phoenix.PullToRefreshView
@@ -19,4 +20,4 @@
 
     </com.yalantis.phoenix.PullToRefreshView>
 
-</FrameLayout><!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/layout/news_fragment.xml -->
+</FrameLayout><!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/layout/news_fragment.xml -->

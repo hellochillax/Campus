@@ -6,4 +6,4 @@
     <item android:state_selected="true" android:drawable="@drawable/chatfrom_bg_focused" />
     <item android:drawable="@drawable/chatfrom_bg_normal" />
 </selector>
-<!-- From: file:/G:/AndroidStudio/FirstRepository/Yard/SoftwareYard/res/drawable/chatfrom_bg.xml -->
+<!-- From: file:/D:/DeveloperTools/Code/Android/Yard/SoftwareYard/res/drawable/chatfrom_bg.xml -->

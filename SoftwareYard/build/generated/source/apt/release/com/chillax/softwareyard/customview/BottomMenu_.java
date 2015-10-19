@@ -71,15 +71,15 @@ public final class BottomMenu_
 
     @Override
     public void onViewChanged(HasViews hasViews) {
+        iv_zhouzhi = ((ImageView) hasViews.findViewById(id.zhouzhi));
+        layout1 = ((LinearLayout) hasViews.findViewById(id.layout1));
+        tv_self = ((TextView) hasViews.findViewById(id.tv_self));
+        tv_zhouzhi = ((TextView) hasViews.findViewById(id.tv_zhouzhi));
         tv_table = ((TextView) hasViews.findViewById(id.tv_table));
         iv_self = ((ImageView) hasViews.findViewById(id.self));
-        layout1 = ((LinearLayout) hasViews.findViewById(id.layout1));
-        layout3 = ((LinearLayout) hasViews.findViewById(id.layout3));
-        tv_zhouzhi = ((TextView) hasViews.findViewById(id.tv_zhouzhi));
-        iv_zhouzhi = ((ImageView) hasViews.findViewById(id.zhouzhi));
-        tv_self = ((TextView) hasViews.findViewById(id.tv_self));
-        layout2 = ((LinearLayout) hasViews.findViewById(id.layout2));
         iv_table = ((ImageView) hasViews.findViewById(id.table));
+        layout2 = ((LinearLayout) hasViews.findViewById(id.layout2));
+        layout3 = ((LinearLayout) hasViews.findViewById(id.layout3));
         if (layout2 != null) {
             layout2 .setOnClickListener(new OnClickListener() {
 

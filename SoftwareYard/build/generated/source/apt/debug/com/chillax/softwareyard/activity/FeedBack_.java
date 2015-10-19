@@ -9,10 +9,7 @@ import android.content.Context;
 import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.View;
-import android.view.View.OnClickListener;
 import android.view.ViewGroup.LayoutParams;
-import android.widget.EditText;
-import android.widget.ListView;
 import com.chillax.softwareyard.R.id;
 import com.chillax.softwareyard.R.layout;
 import com.chillax.softwareyard.customview.TopBar;
@@ -35,7 +32,7 @@ public final class FeedBack_
         init_(savedInstanceState);
         super.onCreate(savedInstanceState);
         OnViewChangedNotifier.replaceNotifier(previousNotifier);
-        setContentView(layout.tuling_layout);
+        setContentView(layout.feedback_layout);
     }
 
     private void init_(Bundle savedInstanceState) {
@@ -82,25 +79,8 @@ public final class FeedBack_
 
     @Override
     public void onViewChanged(HasViews hasViews) {
-        topBar = ((TopBar) hasViews.findViewById(id.topbar));
-        lv = ((ListView) hasViews.findViewById(id.tuling_listview));
-        et = ((EditText) hasViews.findViewById(id.tuling_et));
-        {
-            View view = hasViews.findViewById(id.tuling_tv);
-            if (view!= null) {
-                view.setOnClickListener(new OnClickListener() {
-
-
-                    @Override
-                    public void onClick(View view) {
-                        FeedBack_.this.tuling_tv();
-                    }
-
-                }
-                );
-            }
-        }
-        init();
+        mTopbar = ((TopBar) hasViews.findViewById(id.topBar));
+        initViews();
     }
 
     public static class IntentBuilder_

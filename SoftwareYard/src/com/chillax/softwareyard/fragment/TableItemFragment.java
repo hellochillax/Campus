@@ -23,7 +23,7 @@ import com.chillax.softwareyard.dao.CoursesDBDao;
 import com.chillax.softwareyard.dao.DetailDBDao;
 import com.chillax.softwareyard.model.Course;
 import com.chillax.softwareyard.model.Detail;
-import com.chillax.softwareyard.utils.NoteUtils;
+import com.chillax.softwareyard.utils.CacheUtils;
 import com.chillax.softwareyard.utils.ScreenUtil;
 import com.lidroid.xutils.util.LogUtils;
 
@@ -33,7 +33,8 @@ import java.util.ArrayList;
 public class TableItemFragment extends BaseFragment {
     public static final int CODE_FOR_RESULT = 3;
     private View view;
-    private int currDay;
+    private int currDay;//range:0-19
+    private int currWeek;//range:0-6
     private CoursesDBDao mDao;
     private DetailDBDao mDao2;
     private ListView listView;
@@ -44,7 +45,7 @@ public class TableItemFragment extends BaseFragment {
     private String[] colors = new String[]{"#fbfbd5", "#f9cfdd", "#d9f3f5",
             "#fbd399", "#afe9fb"};
     private static int PER_ITEM_HEIGHT;
-    private NoteUtils cacheUtils;
+    private CacheUtils cacheUtils;
 
     public TableItemFragment() {
         super();
@@ -75,7 +76,7 @@ public class TableItemFragment extends BaseFragment {
             if (courses != null && courses[0] != null) {
                 for (int j = 0; courses[j] != null; j++) {
                     details1[i] = mDao2.getCourseDetail(currDay,
-                            courses[j].getName(), TableFragment.currWeek);
+                            courses[j].getName(), currWeek);
                     if (details1[i] != null) {
                         courses1[i] = courses[j];
                         tvs[2 * i] = courses[j].getName();
@@ -89,16 +90,16 @@ public class TableItemFragment extends BaseFragment {
         }
     }
 
-    public TableItemFragment(Context context, int currDay) {
+    public TableItemFragment(Context context,int currWeek, int currDay) {
         this.context = context;
         this.currDay = currDay;
+        this.currWeek=currWeek;
         mDao = new CoursesDBDao(context);
         mDao2 = new DetailDBDao(context);
-        cacheUtils=new NoteUtils(context);
+        cacheUtils=new CacheUtils(context, CacheUtils.CacheType.FOR_NOTE_CACHE);
     }
     public void refrush(){
         if(adapter!=null){
-            getCoursesData();
             adapter.notifyDataSetChanged();
         }
     }
@@ -128,7 +129,7 @@ public class TableItemFragment extends BaseFragment {
                 view.setLayoutParams(params);
                 view.setBackgroundColor(Color.parseColor(colors[position]));
                 holder.setText(R.id.course_name, tvs[2 * position]).setText(R.id.course_room, tvs[2 * position + 1])
-                        .setVisibility(R.id.course_note, TextUtils.isEmpty(cacheUtils.getCache("note-" + currDay + "-" + position + "-" + tvs[2 * position])) ? View.GONE : View.VISIBLE);
+                        .setVisibility(R.id.course_note, TextUtils.isEmpty(cacheUtils.getCache((currWeek * 7 + currDay) + "_" + position)) ? View.GONE : View.VISIBLE);
                 setListener(view, courses1[position], details1[position], position);
                 return view;
             }
@@ -153,11 +154,12 @@ public class TableItemFragment extends BaseFragment {
                     list.add(detail.getTeacher());
 //					"课程名：","地点：","上课周：","学分：","属性：","课序号：","教师："
                     Intent intent = CourseInfo_.intent(context).get();
+                    intent.putExtra("note_order",(currWeek*7+currDay)+"_"+positon);
                     intent.putStringArrayListExtra("info", list);
                     //设置该课程在一周中的第几天，在一天中的第几节课
                     intent.putExtra("order", currDay + "-" + positon);
 //                    startActivity(intent);
-                    getParentFragment().startActivityForResult(intent, TableItemFragment.CODE_FOR_RESULT);
+                    getParentFragment().startActivityForResult(intent, CODE_FOR_RESULT);
                     //super.startActivityForResult(intent, ((fragment.mIndex+1)<<16) + (requestCode&0xffff));
                     ((MainActivity) context).overridePendingTransition(R.anim.slide_in_right, R.anim.slide_clam);
                 }

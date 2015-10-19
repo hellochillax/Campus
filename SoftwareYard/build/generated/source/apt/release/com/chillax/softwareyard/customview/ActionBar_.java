@@ -94,23 +94,11 @@ public final class ActionBar_
     @Override
     public void onViewChanged(HasViews hasViews) {
         forTableVG = ((ViewGroup) hasViews.findViewById(id.topBar_table));
-        arrow = ((ImageView) hasViews.findViewById(id.topBar_arrow));
-        title = ((TextView) hasViews.findViewById(id.topBar_title));
-        more = ((ImageView) hasViews.findViewById(id.topBar_more));
         spinner = ((TextView) hasViews.findViewById(id.topBar_spinner));
         logo = ((ImageView) hasViews.findViewById(id.topBar_logo));
-        if (more!= null) {
-            more.setOnClickListener(new OnClickListener() {
-
-
-                @Override
-                public void onClick(View view) {
-                    ActionBar_.this.topBar_more(view);
-                }
-
-            }
-            );
-        }
+        title = ((TextView) hasViews.findViewById(id.topBar_title));
+        more = ((ImageView) hasViews.findViewById(id.topBar_more));
+        arrow = ((ImageView) hasViews.findViewById(id.topBar_arrow));
         if (logo!= null) {
             logo.setOnClickListener(new OnClickListener() {
 
@@ -123,13 +111,13 @@ public final class ActionBar_
             }
             );
         }
-        if (forTableVG!= null) {
-            forTableVG.setOnClickListener(new OnClickListener() {
+        if (more!= null) {
+            more.setOnClickListener(new OnClickListener() {
 
 
                 @Override
                 public void onClick(View view) {
-                    ActionBar_.this.forTableVG(view);
+                    ActionBar_.this.topBar_more(view);
                 }
 
             }
@@ -142,6 +130,18 @@ public final class ActionBar_
                 @Override
                 public void onClick(View view) {
                     ActionBar_.this.topBar_title();
+                }
+
+            }
+            );
+        }
+        if (forTableVG!= null) {
+            forTableVG.setOnClickListener(new OnClickListener() {
+
+
+                @Override
+                public void onClick(View view) {
+                    ActionBar_.this.forTableVG(view);
                 }
 
             }
