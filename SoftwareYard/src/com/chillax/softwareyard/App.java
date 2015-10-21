@@ -83,8 +83,10 @@ public class App extends Application {
 
     private void checkVersion() {
         try {
+            CacheUtils cacheUtils=new CacheUtils(this, CacheUtils.CacheType.FOR_VERSION_CACHE);
             PackageInfo info = getPackageManager().getPackageInfo(getPackageName(), 0);
-            if (info.versionCode > Integer.valueOf(new CacheUtils(this, CacheUtils.CacheType.FOR_VERSION_CACHE).getCache("Version"))) {
+            if (info.versionCode > Integer.valueOf(cacheUtils.getCache("Version"))) {
+                cacheUtils.setCache("Version",info.versionCode+"");
                 new StatesUtils(this).setFirstUse(true);
             }
         } catch (Exception e) {

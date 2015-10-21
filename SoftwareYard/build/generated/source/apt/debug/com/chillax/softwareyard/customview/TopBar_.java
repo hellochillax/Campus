@@ -92,8 +92,8 @@ public final class TopBar_
 
     @Override
     public void onViewChanged(HasViews hasViews) {
-        moreIv = ((ImageView) hasViews.findViewById(id.moreIv));
         titleTv = ((TextView) hasViews.findViewById(id.title));
+        moreIv = ((ImageView) hasViews.findViewById(id.moreIv));
         backIv = ((ImageView) hasViews.findViewById(id.back));
         moreTv = ((TextView) hasViews.findViewById(id.moreTv));
         if (moreTv!= null) {

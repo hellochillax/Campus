@@ -93,11 +93,11 @@ public final class ActionBar_
 
     @Override
     public void onViewChanged(HasViews hasViews) {
-        forTableVG = ((ViewGroup) hasViews.findViewById(id.topBar_table));
         logo = ((ImageView) hasViews.findViewById(id.topBar_logo));
+        arrow = ((ImageView) hasViews.findViewById(id.topBar_arrow));
+        forTableVG = ((ViewGroup) hasViews.findViewById(id.topBar_table));
         spinner = ((TextView) hasViews.findViewById(id.topBar_spinner));
         more = ((ImageView) hasViews.findViewById(id.topBar_more));
-        arrow = ((ImageView) hasViews.findViewById(id.topBar_arrow));
         title = ((TextView) hasViews.findViewById(id.topBar_title));
         if (forTableVG!= null) {
             forTableVG.setOnClickListener(new OnClickListener() {
@@ -106,6 +106,18 @@ public final class ActionBar_
                 @Override
                 public void onClick(View view) {
                     ActionBar_.this.forTableVG(view);
+                }
+
+            }
+            );
+        }
+        if (title!= null) {
+            title.setOnClickListener(new OnClickListener() {
+
+
+                @Override
+                public void onClick(View view) {
+                    ActionBar_.this.topBar_title();
                 }
 
             }
@@ -130,18 +142,6 @@ public final class ActionBar_
                 @Override
                 public void onClick(View view) {
                     ActionBar_.this.topBar_logo();
-                }
-
-            }
-            );
-        }
-        if (title!= null) {
-            title.setOnClickListener(new OnClickListener() {
-
-
-                @Override
-                public void onClick(View view) {
-                    ActionBar_.this.topBar_title();
                 }
 
             }

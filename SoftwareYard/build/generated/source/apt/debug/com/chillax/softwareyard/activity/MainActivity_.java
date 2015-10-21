@@ -80,8 +80,8 @@ public final class MainActivity_
 
     @Override
     public void onViewChanged(HasViews hasViews) {
-        mBottomMenu = ((BottomMenu) hasViews.findViewById(id.bottommenu));
         mActionBar = ((ActionBar) hasViews.findViewById(id.topBar));
+        mBottomMenu = ((BottomMenu) hasViews.findViewById(id.bottommenu));
         initView();
     }
 

@@ -1,6 +1,5 @@
 package com.chillax.softwareyard.activity;
 
-import android.app.ActivityManager;
 import android.app.Dialog;
 import android.content.BroadcastReceiver;
 import android.content.ComponentName;
@@ -522,9 +521,10 @@ public class NewsDetail extends SwipeBackActivity implements
         }
         if (!new StatesUtils(this).isAppOpened()) {
             Welcome_.intent(this).start();
+            super.finish();
         }
-        overridePendingTransition(R.anim.slide_clam, R.anim.slide_out_right);
         super.finish();
+
     }
 
     @Override

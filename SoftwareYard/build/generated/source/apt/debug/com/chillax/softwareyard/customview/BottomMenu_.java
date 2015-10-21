@@ -71,15 +71,27 @@ public final class BottomMenu_
 
     @Override
     public void onViewChanged(HasViews hasViews) {
+        iv_zhouzhi = ((ImageView) hasViews.findViewById(id.zhouzhi));
+        iv_table = ((ImageView) hasViews.findViewById(id.table));
         tv_zhouzhi = ((TextView) hasViews.findViewById(id.tv_zhouzhi));
+        iv_self = ((ImageView) hasViews.findViewById(id.self));
+        tv_self = ((TextView) hasViews.findViewById(id.tv_self));
         layout1 = ((LinearLayout) hasViews.findViewById(id.layout1));
         tv_table = ((TextView) hasViews.findViewById(id.tv_table));
-        tv_self = ((TextView) hasViews.findViewById(id.tv_self));
         layout2 = ((LinearLayout) hasViews.findViewById(id.layout2));
-        iv_table = ((ImageView) hasViews.findViewById(id.table));
-        iv_self = ((ImageView) hasViews.findViewById(id.self));
         layout3 = ((LinearLayout) hasViews.findViewById(id.layout3));
-        iv_zhouzhi = ((ImageView) hasViews.findViewById(id.zhouzhi));
+        if (layout2 != null) {
+            layout2 .setOnClickListener(new OnClickListener() {
+
+
+                @Override
+                public void onClick(View view) {
+                    BottomMenu_.this.layout2(view);
+                }
+
+            }
+            );
+        }
         if (layout3 != null) {
             layout3 .setOnClickListener(new OnClickListener() {
 
@@ -99,18 +111,6 @@ public final class BottomMenu_
                 @Override
                 public void onClick(View view) {
                     BottomMenu_.this.layout1(view);
-                }
-
-            }
-            );
-        }
-        if (layout2 != null) {
-            layout2 .setOnClickListener(new OnClickListener() {
-
-
-                @Override
-                public void onClick(View view) {
-                    BottomMenu_.this.layout2(view);
                 }
 
             }

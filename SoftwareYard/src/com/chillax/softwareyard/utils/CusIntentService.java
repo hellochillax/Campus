@@ -175,6 +175,7 @@ public class CusIntentService extends IntentService {
     private CacheUtils cacheUtils;
 
     private void refreshData() {
+
         if (NetworkChecker.IsNetworkAvailable(this)) {
             try {
                 newsList.clear();
@@ -207,6 +208,7 @@ public class CusIntentService extends IntentService {
                     }else {
                         break;
                     }
+//                    sendNotification(i++,item);
                 }
                 //如果提示了更新的消息，那么需要更新缓存，防止重复提醒
                 if(!newsList.get(0).getTitle().equals(cacheFirstTitle)&&newsList.size()==25){

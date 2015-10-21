@@ -74,9 +74,9 @@ public final class SelfFragment_
 
     @Override
     public void onViewChanged(HasViews hasViews) {
-        userImageView = ((ImageView) hasViews.findViewById(com.chillax.softwareyard.R.id.userImage));
-        userLayout = ((RelativeLayout) hasViews.findViewById(com.chillax.softwareyard.R.id.user_layout));
         listView = ((ListView) hasViews.findViewById(com.chillax.softwareyard.R.id.self_list));
+        userLayout = ((RelativeLayout) hasViews.findViewById(com.chillax.softwareyard.R.id.user_layout));
+        userImageView = ((ImageView) hasViews.findViewById(com.chillax.softwareyard.R.id.userImage));
         if (userImageView!= null) {
             userImageView.setOnClickListener(new OnClickListener() {
 
