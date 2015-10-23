@@ -2,6 +2,7 @@ package com.chillax.softwareyard.fragment;
 
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.chillax.softwareyard.R;
 
@@ -17,7 +18,7 @@ public class LeaderItem extends BaseFragment {
     @ViewById
     ImageView bg;
     @ViewById
-    ImageView comein;
+    TextView comein;
     @Click
     void comein(){
         if(listener!=null){
@@ -28,7 +29,7 @@ public class LeaderItem extends BaseFragment {
     public void setPager(int index) {
         switch (index) {
             case 0:
-                bg.setImageResource(R.drawable.leader1);
+                bg.setImageResource(R.drawable.leader3);
                 comein.setVisibility(View.GONE);
                 break;
             case 1:

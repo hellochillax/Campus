@@ -71,22 +71,22 @@ public final class BottomMenu_
 
     @Override
     public void onViewChanged(HasViews hasViews) {
-        iv_zhouzhi = ((ImageView) hasViews.findViewById(id.zhouzhi));
-        iv_table = ((ImageView) hasViews.findViewById(id.table));
+        tv_self = ((TextView) hasViews.findViewById(id.tv_self));
+        layout3 = ((LinearLayout) hasViews.findViewById(id.layout3));
         tv_zhouzhi = ((TextView) hasViews.findViewById(id.tv_zhouzhi));
         iv_self = ((ImageView) hasViews.findViewById(id.self));
-        tv_self = ((TextView) hasViews.findViewById(id.tv_self));
-        layout1 = ((LinearLayout) hasViews.findViewById(id.layout1));
-        tv_table = ((TextView) hasViews.findViewById(id.tv_table));
+        iv_table = ((ImageView) hasViews.findViewById(id.table));
         layout2 = ((LinearLayout) hasViews.findViewById(id.layout2));
-        layout3 = ((LinearLayout) hasViews.findViewById(id.layout3));
-        if (layout2 != null) {
-            layout2 .setOnClickListener(new OnClickListener() {
+        iv_zhouzhi = ((ImageView) hasViews.findViewById(id.zhouzhi));
+        tv_table = ((TextView) hasViews.findViewById(id.tv_table));
+        layout1 = ((LinearLayout) hasViews.findViewById(id.layout1));
+        if (layout1 != null) {
+            layout1 .setOnClickListener(new OnClickListener() {
 
 
                 @Override
                 public void onClick(View view) {
-                    BottomMenu_.this.layout2(view);
+                    BottomMenu_.this.layout1(view);
                 }
 
             }
@@ -104,13 +104,13 @@ public final class BottomMenu_
             }
             );
         }
-        if (layout1 != null) {
-            layout1 .setOnClickListener(new OnClickListener() {
+        if (layout2 != null) {
+            layout2 .setOnClickListener(new OnClickListener() {
 
 
                 @Override
                 public void onClick(View view) {
-                    BottomMenu_.this.layout1(view);
+                    BottomMenu_.this.layout2(view);
                 }
 
             }

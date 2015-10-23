@@ -8,8 +8,15 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
+
+import com.chillax.softwareyard.R;
 
 public class BaseFragment extends Fragment {
+	public static final int NET_ERROR=-1;
+	public void showToast(String msg){
+		Toast.makeText(context, msg, Toast.LENGTH_SHORT).show();
+	}
 	public Context context;
 	public View contentView;
 	public BaseFragment() {

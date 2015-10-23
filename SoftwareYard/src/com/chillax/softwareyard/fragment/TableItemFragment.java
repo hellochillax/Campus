@@ -72,6 +72,8 @@ public class TableItemFragment extends BaseFragment {
             tvs[i]="";
         }
         for (int i = 0; i < 5; i++) {
+            if(mDao==null)mDao=new CoursesDBDao(context);
+            if(mDao2==null)mDao2=new DetailDBDao(context);
             Course[] courses = mDao.getCourseData(currDay, i);
             if (courses != null && courses[0] != null) {
                 for (int j = 0; courses[j] != null; j++) {

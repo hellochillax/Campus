@@ -11,6 +11,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.TextView;
 import com.chillax.softwareyard.R.layout;
 import org.androidannotations.api.builder.FragmentBuilder;
 import org.androidannotations.api.view.HasViews;
@@ -72,8 +73,8 @@ public final class LeaderItem_
 
     @Override
     public void onViewChanged(HasViews hasViews) {
+        comein = ((TextView) hasViews.findViewById(com.chillax.softwareyard.R.id.comein));
         bg = ((ImageView) hasViews.findViewById(com.chillax.softwareyard.R.id.bg));
-        comein = ((ImageView) hasViews.findViewById(com.chillax.softwareyard.R.id.comein));
         if (comein!= null) {
             comein.setOnClickListener(new OnClickListener() {
 

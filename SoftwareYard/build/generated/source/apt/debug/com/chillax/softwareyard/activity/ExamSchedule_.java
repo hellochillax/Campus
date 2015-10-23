@@ -35,7 +35,7 @@ public final class ExamSchedule_
         init_(savedInstanceState);
         super.onCreate(savedInstanceState);
         OnViewChangedNotifier.replaceNotifier(previousNotifier);
-        setContentView(layout.exam_score_layout);
+        setContentView(layout.exam_shedule_layout);
     }
 
     private void init_(Bundle savedInstanceState) {
@@ -82,10 +82,10 @@ public final class ExamSchedule_
 
     @Override
     public void onViewChanged(HasViews hasViews) {
-        mTv = ((TextView) hasViews.findViewById(id.tv_refresh));
-        mLv = ((ExpandableListView) hasViews.findViewById(id.list));
         mPtrv = ((PullToRefreshView) hasViews.findViewById(id.pull_to_refresh));
+        mLv = ((ExpandableListView) hasViews.findViewById(id.list));
         mTopbar = ((TopBar) hasViews.findViewById(id.topBar));
+        mTv = ((TextView) hasViews.findViewById(id.tv_refresh));
         init();
     }
 

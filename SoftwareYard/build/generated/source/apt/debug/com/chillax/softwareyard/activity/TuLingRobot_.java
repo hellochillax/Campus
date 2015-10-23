@@ -83,10 +83,10 @@ public final class TuLingRobot_
 
     @Override
     public void onViewChanged(HasViews hasViews) {
-        lv = ((ListView) hasViews.findViewById(id.tuling_listview));
+        topbar = ((TopBar) hasViews.findViewById(id.topbar));
         edit = ((EditText) hasViews.findViewById(id.tuling_et));
         send = ((TextView) hasViews.findViewById(id.tuling_tv));
-        topbar = ((TopBar) hasViews.findViewById(id.topbar));
+        lv = ((ListView) hasViews.findViewById(id.tuling_listview));
         if (send!= null) {
             send.setOnClickListener(new OnClickListener() {
 

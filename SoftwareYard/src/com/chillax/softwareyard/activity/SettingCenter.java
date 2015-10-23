@@ -95,8 +95,6 @@ public class SettingCenter extends BaseActivity implements ActionBar.onTopBarCli
             case 3:
                 dialog.show();
                 break;
-            default:
-                break;
         }
     }
     class SettingAdapter extends BaseAdapter {
@@ -128,17 +126,12 @@ public class SettingCenter extends BaseActivity implements ActionBar.onTopBarCli
         dialog.show();
         new Thread(()->{
                 try {
-//                    StatesUtils utils = new StatesUtils(SettingCenter.this);
-//                    String cookie = new HttpCookie("JSESSIONID", CommonUtils.md5(utils.getUserName())).toString();
-//                    HttpURLConnection conn = (HttpURLConnection) new URL(com.chillax.config.URL.logoutUrl).openConnection();
-//                    conn.setRequestProperty("Cookie", cookie);
-//                    InputStream is = conn.getInputStream();
-//                    is.close();
-//                    conn.disconnect();
                     mDao.clear();
                     mDao2.clear();
                     new CacheUtils(this, CacheUtils.CacheType.FOR_NOTE_CACHE).clear();
                     new CacheUtils(this, CacheUtils.CacheType.FOR_EXAM_RESULT).clear();
+                    new CacheUtils(this, CacheUtils.CacheType.FOR_EXAM_RESULT_ALL).clear();
+                    new CacheUtils(this, CacheUtils.CacheType.FOR_EXAM_SCHEDULE).clear();
                     File file=new File(Path.userImage);
                     if(file.exists()){
                         file.delete();

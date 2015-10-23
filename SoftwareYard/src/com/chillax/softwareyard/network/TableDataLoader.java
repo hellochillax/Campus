@@ -93,7 +93,6 @@ public class TableDataLoader extends AsyncTask<String, String, String> {
 			Elements second = ele.getElementsByTag("td");
 			if (second.size() == 18) {
 				Detail detail = new Detail();
-				System.out.println();
 				detail.setName(second
 						.get(2)
 						.text()
@@ -131,6 +130,7 @@ public class TableDataLoader extends AsyncTask<String, String, String> {
 	}
 
 	private void getTables(Element detail) {
+		currhang=0;
 		Elements datas = detail.getElementsByAttributeValue("bgcolor",
 				"#FFFFFF");
 		int i = 0;
@@ -227,7 +227,6 @@ public class TableDataLoader extends AsyncTask<String, String, String> {
 			reader1.close();
 			is1.close();
 			conn1.disconnect();
-			System.out.println("a");
 		} catch (Exception e) {
 			LogUtils.e("扒取课程表数据失败！");
 			e.printStackTrace();

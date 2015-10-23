@@ -26,6 +26,8 @@ public class CacheUtils {
             case FOR_VERSION_CACHE:
                 preferences=context.getSharedPreferences("FOR_VERSION_CACHE",0);
                 break;
+            case FOR_EXAM_RESULT_ALL:
+                preferences=context.getSharedPreferences("FOR_EXAM_RESULT_ALL",0);
         }
     }
 
@@ -50,6 +52,9 @@ public class CacheUtils {
      * FOR_EXAM_RESULT:成绩数据缓存
      * key:
      *
+     * FOR_EXAM_RESULT_ALL:全部考试成绩缓存
+     * key:
+     *
      * FOR_EXAM_SCHEDULE:考试安排数据缓存
      * key:
      *
@@ -63,7 +68,7 @@ public class CacheUtils {
      * value:
      */
     public enum CacheType {
-        FOR_VIEWPAGER, FOR_NEWS,FOR_EXAM_RESULT,FOR_EXAM_SCHEDULE,FOR_NOTE_CACHE,FOR_VERSION_CACHE
+        FOR_VIEWPAGER, FOR_NEWS,FOR_EXAM_RESULT,FOR_EXAM_RESULT_ALL,FOR_EXAM_SCHEDULE,FOR_NOTE_CACHE,FOR_VERSION_CACHE
     }
     public void setCache(String key, String value) {
         preferences.edit().putString(key, value).commit();

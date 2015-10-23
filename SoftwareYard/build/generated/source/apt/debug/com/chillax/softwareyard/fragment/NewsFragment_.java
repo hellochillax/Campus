@@ -73,9 +73,9 @@ public final class NewsFragment_
 
     @Override
     public void onViewChanged(HasViews hasViews) {
+        mPullToRefreshView = ((PullToRefreshView) hasViews.findViewById(com.chillax.softwareyard.R.id.pull_to_refresh));
         mPtrlv = ((PullToRefreshListView) hasViews.findViewById(com.chillax.softwareyard.R.id.ptrlv));
         mPgb = ((ProgressBar) hasViews.findViewById(com.chillax.softwareyard.R.id.pgb));
-        mPullToRefreshView = ((PullToRefreshView) hasViews.findViewById(com.chillax.softwareyard.R.id.pull_to_refresh));
         inits();
     }
 

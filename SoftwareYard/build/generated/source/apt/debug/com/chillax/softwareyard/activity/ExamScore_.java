@@ -7,15 +7,14 @@ package com.chillax.softwareyard.activity;
 
 import android.content.Context;
 import android.os.Bundle;
+import android.support.v4.view.ViewPager;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.ViewGroup.LayoutParams;
-import android.widget.ExpandableListView;
-import android.widget.TextView;
 import com.chillax.softwareyard.R.id;
 import com.chillax.softwareyard.R.layout;
 import com.chillax.softwareyard.customview.TopBar;
-import com.yalantis.taurus.PullToRefreshView;
+import com.chillax.viewpagerindicator.TitlePageIndicator;
 import org.androidannotations.api.SdkVersionHelper;
 import org.androidannotations.api.builder.ActivityIntentBuilder;
 import org.androidannotations.api.view.HasViews;
@@ -82,11 +81,10 @@ public final class ExamScore_
 
     @Override
     public void onViewChanged(HasViews hasViews) {
-        mLv = ((ExpandableListView) hasViews.findViewById(id.list));
-        mTv = ((TextView) hasViews.findViewById(id.tv_refresh));
-        mPtrv = ((PullToRefreshView) hasViews.findViewById(id.pull_to_refresh));
+        mVp = ((ViewPager) hasViews.findViewById(id.vp));
+        mIndicator = ((TitlePageIndicator) hasViews.findViewById(id.titles));
         mTopbar = ((TopBar) hasViews.findViewById(id.topBar));
-        init();
+        initViews();
     }
 
     public static class IntentBuilder_

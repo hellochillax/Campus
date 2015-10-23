@@ -199,16 +199,16 @@ public class CusIntentService extends IntentService {
                     cacheUtils = new CacheUtils(this, CacheUtils.CacheType.FOR_NEWS);
                 }
                 String cacheFirstTitle=cacheUtils.getCache(0+"").split("::")[0];
+                int curr=0;
                 for (News item:newsList){
                     //如果缓存中不包含这条消息，那么则进行新消息提醒。
-                    int i=0;
+
                     if(!item.getTitle().equals(cacheFirstTitle)){
                         //这里就应该去提醒用户有新的学生周知了
-                        sendNotification(i++,item);
+                        sendNotification(curr++,item);
                     }else {
                         break;
                     }
-//                    sendNotification(i++,item);
                 }
                 //如果提示了更新的消息，那么需要更新缓存，防止重复提醒
                 if(!newsList.get(0).getTitle().equals(cacheFirstTitle)&&newsList.size()==25){

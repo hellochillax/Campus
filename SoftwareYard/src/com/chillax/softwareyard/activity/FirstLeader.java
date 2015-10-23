@@ -31,7 +31,7 @@ public class FirstLeader extends FragmentActivity implements LeaderItem.onComein
     ViewPager vp;
     @ViewById
     IconPageIndicator indicator;
-    GestureDetector detector;
+//    GestureDetector detector;
 
     @AfterViews
     void init() {
@@ -51,24 +51,27 @@ public class FirstLeader extends FragmentActivity implements LeaderItem.onComein
         vp.setAdapter(new MyPagerAdapter(getSupportFragmentManager()));
         indicator.setViewPager(vp);
         fgs[2].setOnComeinClickedListener(this);
-        detector = new GestureDetector(this, new GestureDetector.SimpleOnGestureListener() {
-            @Override
-            public boolean onFling(MotionEvent e1, MotionEvent e2, float velocityX, float velocityY) {
-                if (vp.getCurrentItem() == 2 && velocityY < -5) {
-                    onComeInClicked();
-                    return true;
-                }
-                return false;
-            }
-        });
-        vp.setOnTouchListener((v,e)->detector.onTouchEvent(e));
+//        detector = new GestureDetector(this, new GestureDetector.SimpleOnGestureListener() {
+//            @Override
+//            public boolean onFling(MotionEvent e1, MotionEvent e2, float velocityX, float velocityY) {
+//                System.out.println(velocityY);
+//                if (vp.getCurrentItem() == 2 && velocityX >200) {
+//                    onComeInClicked();
+//                    return true;
+//                }
+//                return false;
+//            }
+//        });
+//        vp.setOnTouchListener((v,e)->detector.onTouchEvent(e));
     }
 
     private LeaderItem[] fgs = new LeaderItem_[3];
 
     @Override
     public void onComeInClicked() {
-        if (new StatesUtils(this).isLogin()) {
+        StatesUtils utils=new StatesUtils(this);
+        utils.setFirstUse(false);
+        if (utils.isLogin()) {
             MainActivity_.intent(this).start();
         } else {
             LoginActivity_.intent(this).start();

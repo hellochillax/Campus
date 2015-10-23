@@ -224,7 +224,7 @@ public class NewsFragment extends BaseFragment implements
                     utils.setCache(i+"",App.newsList.get(i).toString());
                 }
             }
-        }else if(!App.newsList.get(0).getTitle().equals(utils.getCache(""+0).split("::")[0])){
+        }else if(App.newsList.size()>0&&!App.newsList.get(0).getTitle().equals(utils.getCache(""+0).split("::")[0])){
             if(App.newsList.size()>=25){
                 utils.clear();
                 for(int i=0;i<25;i++){

@@ -22,6 +22,7 @@ import com.chillax.softwareyard.model.ExamResult;
 import com.chillax.softwareyard.model.ExamShedule;
 import com.chillax.softwareyard.utils.CacheUtils;
 import com.chillax.softwareyard.utils.CommonUtils;
+import com.chillax.softwareyard.utils.NetworkChecker;
 import com.chillax.softwareyard.utils.ScreenUtil;
 import com.chillax.softwareyard.utils.StatesUtils;
 import com.lidroid.xutils.util.LogUtils;
@@ -47,7 +48,7 @@ import java.util.List;
 /**
  * Created by Xiao on 2015/9/28.
  */
-@EActivity(R.layout.exam_score_layout)
+@EActivity(R.layout.exam_shedule_layout)
 public class ExamSchedule extends BaseActivity implements TopBar.onTopClickedListener, ExpandableListView.OnChildClickListener {
     @ViewById(R.id.list)
     ExpandableListView mLv;
@@ -130,7 +131,7 @@ public class ExamSchedule extends BaseActivity implements TopBar.onTopClickedLis
     }
 
     private void refreshData() {
-
+        if(!NetworkChecker.IsNetworkAvailable(this))return;
         new AsyncTask<String, String, String>() {
             private String userName, userPwd;
             private StatesUtils statesUtils;
@@ -146,6 +147,7 @@ public class ExamSchedule extends BaseActivity implements TopBar.onTopClickedLis
             @Override
             protected void onPostExecute(String result) {
                 super.onPostExecute(result);
+                if(result==null)return;
                 Document docs = Jsoup.parse(result);
                 Elements datas = docs.getElementsByClass("odd");
                 if (datas != null && datas.size() > 0) {

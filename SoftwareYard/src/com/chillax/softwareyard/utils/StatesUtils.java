@@ -91,7 +91,7 @@ public class StatesUtils {
         preferences.edit().putInt(currWeek, curr).commit();
     }
     public int getCurrWeekOfTerm(){
-       return preferences.getInt(currWeek,6);
+       return preferences.getInt(currWeek,7);
     }
 
 }
