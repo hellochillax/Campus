@@ -1,0 +1,286 @@
+[
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/table_left_item.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/table_left_item.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/activity_main.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/welcome_layout.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/welcome_layout.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/skyblue_share_platform_list.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/skyblue_share_platform_list.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/skyblue_editpage.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/skyblue_editpage.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/table_item_list_item.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/table_item_list_item.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/exam_shedule_layout.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/exam_shedule_layout.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/umeng_fb_audio_dialog.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/umeng_fb_audio_dialog.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/zoom_image_layout.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/zoom_image_layout.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/umeng_fb_input_conversation.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/umeng_fb_input_conversation.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/store_center__layout.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/store_center__layout.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/skyblue_editpage_at_layout.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/skyblue_editpage_at_layout.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/self_fragment.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/self_fragment.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/front_back_store.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/front_back_store.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/zhouzhi_item.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/zhouzhi_item.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/exam_score_layout.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/exam_score_layout.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/swipeback_layout.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/swipeback_layout.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/table_fragment_day_item.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/table_fragment_day_item.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/umeng_fb_fragment_question.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/umeng_fb_fragment_question.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/aboutauthor_layout.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/aboutauthor_layout.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/roll_viewpager.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/roll_viewpager.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/topbar.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/topbar.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/settingcenter_layout.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/settingcenter_layout.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/actionbar.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/actionbar.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/exam_socore_frag_layout.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/exam_socore_frag_layout.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/umeng_fb_reply_item_text.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/umeng_fb_reply_item_text.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/umeng_fb_activity_help.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/umeng_fb_activity_help.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/tb_munion_adview.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/tb_munion_adview.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/leader_item.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/leader_item.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/umeng_fb_welcome_item.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/umeng_fb_welcome_item.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/pop_dialog_bg.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/pop_dialog_bg.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/umeng_fb_contact_spinner.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/umeng_fb_contact_spinner.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/umeng_fb_contact.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/umeng_fb_contact.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/download_item.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/download_item.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/photo_choose_dialog.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/photo_choose_dialog.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/webview_layout.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/webview_layout.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/login_dialog_layout.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/login_dialog_layout.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/down_file_click_dialog.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/down_file_click_dialog.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/tuling_list_item.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/tuling_list_item.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/viewpager_item.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/viewpager_item.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/self_list_item.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/self_list_item.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/news_fragment.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/news_fragment.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/umeng_update_dialog.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/umeng_update_dialog.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/skyblue_share_actionbar.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/skyblue_share_actionbar.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/tb_munion_aditem.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/tb_munion_aditem.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/skyblue_share_platform_list_item.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/skyblue_share_platform_list_item.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/login_layout.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/login_layout.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/exam_score_list_item.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/exam_score_list_item.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/download_layout.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/download_layout.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/newdetail_popu.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/newdetail_popu.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/umeng_fb_reply_item_audio.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/umeng_fb_reply_item_audio.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/exam_socre_list_detail_list.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/exam_socre_list_detail_list.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/umeng_fb_input_contact.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/umeng_fb_input_contact.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/course_detail_layout.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/course_detail_layout.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/umeng_fb_activity_conversation.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/umeng_fb_activity_conversation.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/pull_to_load_footer.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/pull_to_load_footer.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/umeng_fb_image_dialog.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/umeng_fb_image_dialog.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/leader_layout.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/leader_layout.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/bottommenu.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/bottommenu.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/pull_to_refresh_header.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/pull_to_refresh_header.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/self_popu_layout.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/self_popu_layout.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/umeng_fb_reply_item_image.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/umeng_fb_reply_item_image.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/table_fragment_day.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/table_fragment_day.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/course_info_note_dialog.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/course_info_note_dialog.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/news_detail.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/news_detail.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/tuling_layout.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/tuling_layout.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/feedback_layout.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/feedback_layout.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/umeng_fb_fragment.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/umeng_fb_fragment.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/umeng_fb_input_conversation_audio.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/umeng_fb_input_conversation_audio.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/file_list_item.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/file_list_item.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/layout/skyblue_editpage_inc_image_layout.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/layout/skyblue_editpage_inc_image_layout.xml"
+    }
+]

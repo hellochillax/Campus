@@ -82,33 +82,33 @@ public class DownLoadService extends Service {
         }
         RequestParams params = new RequestParams();
         params.addHeader("Referer", fileUrl);
-        HttpHandler httpHandler=new HttpUtils().download(HttpRequest.HttpMethod.GET, fileUrl, Path.downloadPath + "/" + fileName, params, false, false, new RequestCallBack<File>() {
-            Doc doc = null;
-
-            @Override
-            public void onLoading(long total, long current, boolean isUploading) {
-                super.onLoading(total, current, isUploading);
-                if (doc == null) {
-                    String size = df.format(total / 1024.0);
-                    doc = new Doc(fileName, size, (int)(100 * current / total/1024) + "", fileUrl, Path.downloadPath + "/" + fileName);
-                    dataList.add(doc);
-                }
-                doc.setProgress((100 * current / total) + "");
-            }
-
-            @Override
-            public void onSuccess(ResponseInfo<File> responseInfo) {
-                Intent intent=new Intent();
-                intent.putExtra("name",fileName);
-                intent.setAction("com.chillax.softwareyard.utils.DownLoadService");
-                sendBroadcast(intent);
-            }
-
-            @Override
-            public void onFailure(HttpException e, String s) {
-                Toast.makeText(DownLoadService.this, "下载失败，请检查网络后重试", Toast.LENGTH_SHORT).show();
-            }
-        });
+//        HttpHandler httpHandler=new HttpUtils().download(HttpRequest.HttpMethod.GET, fileUrl, Path.downloadPath + "/" + fileName, params, false, false, new RequestCallBack<File>() {
+//            Doc doc = null;
+//
+//            @Override
+//            public void onLoading(long total, long current, boolean isUploading) {
+//                super.onLoading(total, current, isUploading);
+//                if (doc == null) {
+//                    String size = df.format(total / 1024.0);
+//                    doc = new Doc(fileName, size, (int)(100 * current / total/1024) + "", fileUrl, Path.downloadPath + "/" + fileName);
+//                    dataList.add(doc);
+//                }
+//                doc.setProgress((100 * current / total) + "");
+//            }
+//
+//            @Override
+//            public void onSuccess(ResponseInfo<File> responseInfo) {
+//                Intent intent=new Intent();
+//                intent.putExtra("name",fileName);
+//                intent.setAction("com.chillax.softwareyard.utils.DownLoadService");
+//                sendBroadcast(intent);
+//            }
+//
+//            @Override
+//            public void onFailure(HttpException e, String s) {
+//                Toast.makeText(DownLoadService.this, "下载失败，请检查网络后重试", Toast.LENGTH_SHORT).show();
+//            }
+//        });
     }
     private void getFileSize(final TextView tv, final String url, Handler handler, int position) {
         if (sized.contains(url)) {

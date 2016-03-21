@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/sun.png",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/exploded-aar/com.yalantis/library/1.2.2/res/drawable-xxxhdpi-v4/sun.png"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/clouds_right.png",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/exploded-aar/com.yalantis/library2/1.2.2/res/drawable-xxxhdpi-v4/clouds_right.png"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/buildings.png",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/exploded-aar/com.yalantis/library/1.2.2/res/drawable-xxxhdpi-v4/buildings.png"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/sky.png",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/exploded-aar/com.yalantis/library/1.2.2/res/drawable-xxxhdpi-v4/sky.png"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/clouds_left.png",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/exploded-aar/com.yalantis/library2/1.2.2/res/drawable-xxxhdpi-v4/clouds_left.png"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/airplane.png",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/exploded-aar/com.yalantis/library2/1.2.2/res/drawable-xxxhdpi-v4/airplane.png"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/clouds_center.png",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/exploded-aar/com.yalantis/library2/1.2.2/res/drawable-xxxhdpi-v4/clouds_center.png"
+    }
+]

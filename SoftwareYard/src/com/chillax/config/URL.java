@@ -12,19 +12,19 @@ public class URL {
     public static final String zhouzhiUrl3 = "http://ssdut.dlut.edu.cn/info/";
     public static final String zhouzhiUrl4 = "http://ssdut.dlut.edu.cn/";
     /**登陆教务处账号*/
-    public static final String loginUrl="http://202.118.65.20:8083/loginAction.do";
+    public static final String loginUrl="http://zhjw.dlut.edu.cn/loginAction.do";
     /**注销教务处账号*/
-    public static final String logoutUrl="http://202.118.65.20:8083/logout.do";
+    public static final String logoutUrl="http://zhjw.dlut.edu.cn/logout.do";
     /**课表界面*/
-    public static final String tableUrl="http://202.118.65.20:8083/xkAction.do?actionType=6";
+    public static final String tableUrl="http://zhjw.dlut.edu.cn/xkAction.do?actionType=6";
     /**图灵机器人地址*/
     public static final String tulingApi="http://www.tuling123.com/openapi/api?key=3a1326a6f453a0605b30aea07b429cea&";
     /**全部成绩查询地址*/
-    public static final String allchengjiUrl="http://202.118.65.20:8083/gradeLnAllAction.do?type=ln&oper=fainfo";
+    public static final String allchengjiUrl="http://zhjw.dlut.edu.cn/gradeLnAllAction.do?type=ln&oper=fainfo";
     /**本学期成绩查询地址*/
-    public static final String bxqchengjiUrl="http://202.118.65.20:8083/bxqcjcxAction.do";
+    public static final String bxqchengjiUrl="http://zhjw.dlut.edu.cn/bxqcjcxAction.do";
     /**考试安排查询地址*/
-    public static final String ksapUrl="http://202.118.65.20:8083/ksApCxAction.do?oper=getKsapXx";
+    public static final String ksapUrl="http://zhjw.dlut.edu.cn/ksApCxAction.do?oper=getKsapXx";
     /**
      * 首页录播图的地址链接
      * num：4

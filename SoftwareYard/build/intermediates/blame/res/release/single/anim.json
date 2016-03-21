@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/anim/umeng_fb_dialog_enter_anim.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/anim/umeng_fb_dialog_enter_anim.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/anim/umeng_fb_dialog_exit_anim.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/anim/umeng_fb_dialog_exit_anim.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/anim/slide_out_left.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/anim/slide_out_left.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/anim/update_loading_progressbar_anim.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/anim/update_loading_progressbar_anim.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/anim/slide_in_left.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/anim/slide_in_left.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/anim/slide_out_right.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/anim/slide_out_right.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/anim/table_refresh_rotate.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/anim/table_refresh_rotate.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/anim/umeng_fb_audio_play_anim.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/anim/umeng_fb_audio_play_anim.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/anim/slide_clam.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/anim/slide_clam.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/anim/photo_dialog_in_anim.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/anim/photo_dialog_in_anim.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/anim/photo_dialog_out_anim.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/anim/photo_dialog_out_anim.xml"
+    },
+    {
+        "merged": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/release/anim/slide_in_right.xml",
+        "source": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/anim/slide_in_right.xml"
+    }
+]

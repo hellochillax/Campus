@@ -48,9 +48,20 @@ public class DetailDBDao {
                 String[] time;
                 c.moveToFirst();
                 while (!c.isAfterLast()) {
+                    System.out.println(c.getString(6));
                     time = c.getString(6).split("-");
-                    if (Integer.parseInt(time[0]) <= currWeek+1
-                            && currWeek+1 <= Integer.parseInt(time[1])) {
+                    if (time.length == 1) {
+                        if (Integer.parseInt(time[0]) == currWeek + 1) {
+                            Detail detail = new Detail(c.getString(1),
+                                    c.getString(2), c.getString(3), c.getString(4),
+                                    c.getString(5), c.getString(6), c.getString(7),
+                                    c.getString(8));
+                            c.close();
+                            db.close();
+                            return detail;
+                        }
+                    } else if(Integer.parseInt(time[0]) <= currWeek + 1
+                            && currWeek + 1 <= Integer.parseInt(time[1])) {
                         Detail detail = new Detail(c.getString(1),
                                 c.getString(2), c.getString(3), c.getString(4),
                                 c.getString(5), c.getString(6), c.getString(7),

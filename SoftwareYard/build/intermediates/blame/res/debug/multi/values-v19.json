@@ -1,0 +1,28 @@
+[
+    {
+        "outputFile": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/build/intermediates/res/merged/debug/values-v19/values-v19.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 6,
+                    "endColumn": 12,
+                    "endOffset": 350
+                },
+                "from": {
+                    "file": "/Users/MAC/Documents/Programer/Android/Yard/SoftwareYard/res/values-v19/styles.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 224,
+                        "endLine": 11,
+                        "endColumn": 12,
+                        "endOffset": 519
+                    }
+                }
+            }
+        ]
+    }
+]
